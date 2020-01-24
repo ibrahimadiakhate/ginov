@@ -1,0 +1,1448 @@
+{
+  "editor": {
+    "enableUndoRedo": true,
+    "toolbarVisible": true,
+    "toolbarOptions": {
+      "mergeVisible": false,
+      "cutVisible": false,
+      "reshapeVisible": false
+    },
+    "layerInfos": [
+      {
+        "featureLayer": {
+          "id": "Patrimine_ginov_7162"
+        },
+        "disableGeometryUpdate": false,
+        "fieldInfos": [
+          {
+            "fieldName": "objectid",
+            "label": "objectid",
+            "isEditable": null,
+            "visible": false
+          },
+          {
+            "fieldName": "id",
+            "label": "id",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "reservoir",
+            "label": "reservoir",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "nom_borne",
+            "label": "nom_borne",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "x_lamb93",
+            "label": "x_lamb93",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "y_lamb93",
+            "label": "y_lamb93",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "x_lambert1",
+            "label": "x_lambert1",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "y_lambert1",
+            "label": "y_lambert1",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "code_insee",
+            "label": "code_insee",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "nom_comm",
+            "label": "nom_comm",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "source",
+            "label": "source",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "globalid",
+            "label": "globalid",
+            "isEditable": null,
+            "visible": false
+          },
+          {
+            "fieldName": "id_pat",
+            "label": "id_pat",
+            "isEditable": true,
+            "visible": true
+          }
+        ]
+      },
+      {
+        "featureLayer": {
+          "id": "Patrimine_ginov_1748"
+        },
+        "disableGeometryUpdate": false,
+        "fieldInfos": [
+          {
+            "fieldName": "objectid",
+            "label": "objectid",
+            "isEditable": null,
+            "visible": false
+          },
+          {
+            "fieldName": "ouvrage",
+            "label": "ouvrage",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "id_ouvrage",
+            "label": "id_ouvrage",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "id_bat",
+            "label": "id_bat",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "commune",
+            "label": "commune",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "cde_postal",
+            "label": "cde_postal",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "adresse",
+            "label": "adresse",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "localisati",
+            "label": "localisati",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "nature_loc",
+            "label": "nature_loc",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "utilisatio",
+            "label": "utilisatio",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "superficie",
+            "label": "superficie",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "statut",
+            "label": "statut",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "x",
+            "label": "x",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "y",
+            "label": "y",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "type_bat",
+            "label": "type_bat",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "occupe",
+            "label": "occupe",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "grand_publ",
+            "label": "grand_publ",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "bat_princ",
+            "label": "bat_princ",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "x_geo",
+            "label": "x_geo",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "y_geo",
+            "label": "y_geo",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "vente",
+            "label": "vente",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "code_usuel",
+            "label": "code_usuel",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "lien_photo",
+            "label": "lien_photo",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "globalid",
+            "label": "globalid",
+            "isEditable": null,
+            "visible": false
+          },
+          {
+            "fieldName": "id_pat",
+            "label": "id_pat",
+            "isEditable": true,
+            "visible": true
+          }
+        ]
+      },
+      {
+        "featureLayer": {
+          "id": "Patrimine_ginov_5286"
+        },
+        "disableGeometryUpdate": false,
+        "fieldInfos": [
+          {
+            "fieldName": "objectid",
+            "label": "objectid",
+            "isEditable": null,
+            "visible": false
+          },
+          {
+            "fieldName": "ouvrage",
+            "label": "ouvrage",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "id_ouvrage",
+            "label": "id_ouvrage",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "id_bat",
+            "label": "id_bat",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "commune",
+            "label": "commune",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "cde_postal",
+            "label": "cde_postal",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "adresse",
+            "label": "adresse",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "localisati",
+            "label": "localisati",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "nature_loc",
+            "label": "nature_loc",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "utilisatio",
+            "label": "utilisatio",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "superficie",
+            "label": "superficie",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "statut",
+            "label": "statut",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "x",
+            "label": "x",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "y",
+            "label": "y",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "type_bat",
+            "label": "type_bat",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "occupe",
+            "label": "occupe",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "grand_publ",
+            "label": "grand_publ",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "bat_princ",
+            "label": "bat_princ",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "x_geo",
+            "label": "x_geo",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "y_geo",
+            "label": "y_geo",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "vente",
+            "label": "vente",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "code_usuel",
+            "label": "code_usuel",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "lien_photo",
+            "label": "lien_photo",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "globalid",
+            "label": "globalid",
+            "isEditable": null,
+            "visible": false
+          },
+          {
+            "fieldName": "id_pat",
+            "label": "id_pat",
+            "isEditable": true,
+            "visible": true
+          }
+        ]
+      },
+      {
+        "featureLayer": {
+          "id": "Patrimine_ginov_2893"
+        },
+        "disableGeometryUpdate": false,
+        "fieldInfos": [
+          {
+            "fieldName": "objectid",
+            "label": "OBJECTID",
+            "isEditable": null,
+            "visible": false
+          },
+          {
+            "fieldName": "id_anomalie",
+            "label": "id_anomalie",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "globalid",
+            "label": "globalid",
+            "isEditable": null,
+            "visible": false
+          }
+        ]
+      },
+      {
+        "featureLayer": {
+          "id": "Patrimine_ginov_347"
+        },
+        "disableGeometryUpdate": false,
+        "fieldInfos": [
+          {
+            "fieldName": "objectid",
+            "label": "objectid",
+            "isEditable": null,
+            "visible": false
+          },
+          {
+            "fieldName": "abreviation",
+            "label": "abreviation",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "technologie",
+            "label": "technologie",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "riviere",
+            "label": "riviere",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "reservoir",
+            "label": "reservoir",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "table_infrastructure",
+            "label": "table_infrastructure",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "description",
+            "label": "description",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "ouvrage",
+            "label": "ouvrage",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "code_infra_ouvrage",
+            "label": "code_infra_ouvrage",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "code_infra",
+            "label": "code_infra",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "globalid",
+            "label": "globalid",
+            "isEditable": null,
+            "visible": false
+          },
+          {
+            "fieldName": "id_pat",
+            "label": "id_pat",
+            "isEditable": true,
+            "visible": true
+          }
+        ]
+      },
+      {
+        "featureLayer": {
+          "id": "Patrimine_ginov_2192"
+        },
+        "disableGeometryUpdate": false,
+        "fieldInfos": [
+          {
+            "fieldName": "objectid",
+            "label": "OBJECTID",
+            "isEditable": null,
+            "visible": false
+          },
+          {
+            "fieldName": "id_anomalie",
+            "label": "id_anomalie",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "globalid",
+            "label": "globalid",
+            "isEditable": null,
+            "visible": false
+          }
+        ]
+      },
+      {
+        "featureLayer": {
+          "id": "Patrimine_ginov_5727"
+        },
+        "disableGeometryUpdate": false,
+        "fieldInfos": [
+          {
+            "fieldName": "objectid",
+            "label": "objectid",
+            "isEditable": null,
+            "visible": false
+          },
+          {
+            "fieldName": "essence_do",
+            "label": "essence_do",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "essence_se",
+            "label": "essence_se",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "ouvrage",
+            "label": "ouvrage",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "code_infra",
+            "label": "code_infra",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "longueur",
+            "label": "longueur",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "hauteur",
+            "label": "hauteur",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "largeur",
+            "label": "largeur",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "lien_photo",
+            "label": "lien_photo",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "globalid",
+            "label": "globalid",
+            "isEditable": null,
+            "visible": false
+          },
+          {
+            "fieldName": "id_pat",
+            "label": "id_pat",
+            "isEditable": true,
+            "visible": true
+          }
+        ]
+      },
+      {
+        "featureLayer": {
+          "id": "Patrimine_ginov_3956"
+        },
+        "disableGeometryUpdate": false,
+        "fieldInfos": [
+          {
+            "fieldName": "objectid",
+            "label": "objectid",
+            "isEditable": null,
+            "visible": false
+          },
+          {
+            "fieldName": "code_infra",
+            "label": "code_infra",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "description",
+            "label": "description",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "ouvrage",
+            "label": "ouvrage",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "code_infra_ouvrage",
+            "label": "code_infra_ouvrage",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "reservoir",
+            "label": "reservoir",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "table_infrastructure",
+            "label": "table_infrastructure",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "niveau",
+            "label": "niveau",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "lien_photo",
+            "label": "lien_photo",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "globalid",
+            "label": "globalid",
+            "isEditable": null,
+            "visible": false
+          },
+          {
+            "fieldName": "id_pat",
+            "label": "id_pat",
+            "isEditable": true,
+            "visible": true
+          }
+        ]
+      },
+      {
+        "featureLayer": {
+          "id": "Patrimine_ginov_6902"
+        },
+        "disableGeometryUpdate": false,
+        "fieldInfos": [
+          {
+            "fieldName": "objectid",
+            "label": "objectid",
+            "isEditable": null,
+            "visible": false
+          },
+          {
+            "fieldName": "submersible",
+            "label": "submersible",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "type",
+            "label": "type",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "riviere",
+            "label": "riviere",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "reservoir",
+            "label": "reservoir",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "table_infrastructure",
+            "label": "table_infrastructure",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "description",
+            "label": "description",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "ouvrage",
+            "label": "ouvrage",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "code_infra_ouvrage",
+            "label": "code_infra_ouvrage",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "code_infra",
+            "label": "code_infra",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "niveau",
+            "label": "niveau",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "lien_photo",
+            "label": "lien_photo",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "globalid",
+            "label": "globalid",
+            "isEditable": null,
+            "visible": false
+          },
+          {
+            "fieldName": "id_pat",
+            "label": "id_pat",
+            "isEditable": true,
+            "visible": true
+          }
+        ]
+      },
+      {
+        "featureLayer": {
+          "id": "Patrimine_ginov_3799"
+        },
+        "disableGeometryUpdate": false,
+        "fieldInfos": [
+          {
+            "fieldName": "objectid",
+            "label": "OBJECTID",
+            "isEditable": null,
+            "visible": false
+          },
+          {
+            "fieldName": "id_anomalie",
+            "label": "id_anomalie",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "globalid",
+            "label": "globalid",
+            "isEditable": null,
+            "visible": false
+          }
+        ]
+      },
+      {
+        "featureLayer": {
+          "id": "Patrimine_ginov_1893"
+        },
+        "disableGeometryUpdate": false,
+        "fieldInfos": [
+          {
+            "fieldName": "objectid",
+            "label": "OBJECTID",
+            "isEditable": null,
+            "visible": false
+          },
+          {
+            "fieldName": "lac_reservoir",
+            "label": "lac-reservoir",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "lieu",
+            "label": "lieu",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "consequence",
+            "label": "consequence principale",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "description",
+            "label": "description",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "date",
+            "label": "date",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "fiche_ouverte",
+            "label": "fiche ouverte par",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "id_anomalie",
+            "label": "id_anomalie",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "globalid",
+            "label": "globalid",
+            "isEditable": null,
+            "visible": false
+          }
+        ]
+      },
+      {
+        "featureLayer": {
+          "id": "Patrimine_ginov_9094"
+        },
+        "disableGeometryUpdate": false,
+        "fieldInfos": [
+          {
+            "fieldName": "objectid",
+            "label": "objectid",
+            "isEditable": null,
+            "visible": false
+          },
+          {
+            "fieldName": "inspire",
+            "label": "inspire",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "obs",
+            "label": "obs",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "date_mise_",
+            "label": "date_mise_",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "code_insee",
+            "label": "code_insee",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "code_ins00",
+            "label": "code_ins00",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "nom_commun",
+            "label": "nom_commun",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "id_parcell",
+            "label": "id_parcell",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "insee_comm",
+            "label": "insee_comm",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "arrondisse",
+            "label": "arrondisse",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "section",
+            "label": "section",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "feuille",
+            "label": "feuille",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "numero",
+            "label": "numero",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "adresse",
+            "label": "adresse",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "nature",
+            "label": "nature",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "code_propr",
+            "label": "code_propr",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "affectatio",
+            "label": "affectatio",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "surf_impot",
+            "label": "surf_impot",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "surf_imp00",
+            "label": "surf_imp00",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "surf_imp01",
+            "label": "surf_imp01",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "inventaire",
+            "label": "inventaire",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "natura2000",
+            "label": "natura2000",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "reserve",
+            "label": "reserve",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "parc_natur",
+            "label": "parc_natur",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "pourcentag",
+            "label": "pourcentag",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "pourcent00",
+            "label": "pourcent00",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "surf_rn_ca",
+            "label": "surf_rn_ca",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "surf_rc_ca",
+            "label": "surf_rc_ca",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "pos_reserv",
+            "label": "pos_reserv",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "regime_for",
+            "label": "regime_for",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "surf_non_i",
+            "label": "surf_non_i",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "affectat00",
+            "label": "affectat00",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "globalid",
+            "label": "globalid",
+            "isEditable": null,
+            "visible": false
+          },
+          {
+            "fieldName": "id_pat",
+            "label": "id_pat",
+            "isEditable": true,
+            "visible": true
+          }
+        ]
+      },
+      {
+        "featureLayer": {
+          "id": "Patrimine_ginov_7661"
+        },
+        "disableGeometryUpdate": false,
+        "fieldInfos": [
+          {
+            "fieldName": "objectid",
+            "label": "objectid",
+            "isEditable": null,
+            "visible": false
+          },
+          {
+            "fieldName": "id",
+            "label": "id",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "reservoir",
+            "label": "reservoir",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "id_digue",
+            "label": "id_digue",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "zonage",
+            "label": "zonage",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "milieu",
+            "label": "milieu",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "obs",
+            "label": "obs",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "surface",
+            "label": "surface",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "typologie",
+            "label": "typologie",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "entretien",
+            "label": "entretien",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "difficulte",
+            "label": "difficulte",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "securite",
+            "label": "securite",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "classes",
+            "label": "classes",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "risques",
+            "label": "risques",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "temps",
+            "label": "temps",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "materiel",
+            "label": "materiel",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "engin",
+            "label": "engin",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "globalid",
+            "label": "globalid",
+            "isEditable": null,
+            "visible": false
+          },
+          {
+            "fieldName": "id_pat",
+            "label": "id_pat",
+            "isEditable": true,
+            "visible": true
+          }
+        ]
+      },
+      {
+        "featureLayer": {
+          "id": "Patrimine_ginov_7300"
+        },
+        "disableGeometryUpdate": false,
+        "fieldInfos": [
+          {
+            "fieldName": "objectid",
+            "label": "OBJECTID",
+            "isEditable": null,
+            "visible": false
+          },
+          {
+            "fieldName": "lac_reservoir",
+            "label": "lac-reservoir",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "lieu",
+            "label": "lieu",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "consequence",
+            "label": "consequence principale",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "description",
+            "label": "description",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "date",
+            "label": "date",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "fiche_ouverte",
+            "label": "fiche ouverte par",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "id_anomalie",
+            "label": "id_anomalie",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "globalid",
+            "label": "globalid",
+            "isEditable": null,
+            "visible": false
+          }
+        ]
+      }
+    ],
+    "tableInfos": [
+      {
+        "featureLayer": {
+          "id": "Patrimine_ginov_8617"
+        },
+        "fieldInfos": [
+          {
+            "fieldName": "objectid",
+            "label": "OBJECTID",
+            "isEditable": null,
+            "visible": false
+          },
+          {
+            "fieldName": "globalid",
+            "label": "globalid",
+            "isEditable": null,
+            "visible": false
+          },
+          {
+            "fieldName": "site",
+            "label": "site de l'intervention",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "type_intervention",
+            "label": "type de l'intervention",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "statut_intervention",
+            "label": "statut de l'intervention",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "duree",
+            "label": "durée de la tâche",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "date_prev_debut",
+            "label": "date prévisionnelle de début",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "date_prev_fin",
+            "label": "date prévisionnelle de fin",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "agent",
+            "label": "agent",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "service",
+            "label": "service responsable",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "id_pat",
+            "label": "id_pat",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "type_patrimoine",
+            "label": "type_patrimoine",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "date_observee_debut",
+            "label": "date observée de debut",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "date_observee_fin",
+            "label": "date observée de fin",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "id_anomalie",
+            "label": "id_anomalie",
+            "isEditable": true,
+            "visible": true
+          }
+        ]
+      },
+      {
+        "featureLayer": {
+          "id": "Patrimine_ginov_3906"
+        },
+        "fieldInfos": [
+          {
+            "fieldName": "objectid",
+            "label": "OBJECTID",
+            "isEditable": null,
+            "visible": false
+          },
+          {
+            "fieldName": "lac_reservoir",
+            "label": "lac",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "lieu",
+            "label": "lieu",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "consequence",
+            "label": "consequence principale",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "description",
+            "label": "description",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "id_pat",
+            "label": "identifiant du patrimoine",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "type_patrimoine",
+            "label": "type de patrimoine",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "date",
+            "label": "date",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "fiche_ouverte",
+            "label": "fiche ouverte par",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "id_anomalie",
+            "label": "id_anomalie",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "globalid",
+            "label": "globalid",
+            "isEditable": null,
+            "visible": false
+          }
+        ]
+      }
+    ],
+    "useFilterEdit": false,
+    "autoApplyEditWhenGeometryIsMoved": false,
+    "snappingTolerance": 15,
+    "popupTolerance": 5,
+    "stickyMoveTolerance": 0
+  }
+}

@@ -1,0 +1,19 @@
+<div>
+  <div class="logo jimu-float-leading" data-dojo-attach-point="logoWrapperNode">
+    <img data-dojo-attach-point="logoNode">
+  </div>
+  <div class="titles jimu-float-leading jimu-leading-margin1" data-dojo-attach-point="titlesNode">
+    <div class="jimu-title jimu-float-leading" data-dojo-attach-point="titleNode"></div>
+    <div class="jimu-subtitle jimu-float-leading jimu-leading-margin2" data-dojo-attach-point="subtitleNode"></div>
+  </div>
+
+  <span class="links-icon" data-dojo-attach-point="linksIconNode">
+    <!-- On retire la liste déroulante des liens pour les placer directement
+         dans la header bar -->
+    <img data-dojo-attach-point="linksIconImageNode" style="display: none;">
+    <span class="dynamic-section" data-dojo-attach-point="dynamicLinksNode"></span>
+    <div class="links hidden" data-dojo-attach-point="linksNode" style="display: none;">
+      <a class="link" href="#" data-dojo-attach-point="aboutNode" data-dojo-attach-event="onclick:_onAboutClick" style="display: none;">${nls.about}</a>
+    </div>
+  </span>
+</div>

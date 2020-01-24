@@ -1,0 +1,21 @@
+{
+  "allPlaceholder": "",
+  "showInfoWindowOnSelect": true,
+  "sources": [
+    {
+      "url": "https://sig.seinegrandslacs.fr/portal/sharing/servers/11ab787dcb164839ad9fbda8ba7e3ae0/rest/services/GEOCODAGE/BDAdresse_France_Standard/GeocodeServer",
+      "name": "Geocodeur Esri France",
+      "singleLineFieldName": "SingleLine",
+      "placeholder": "Nom communes",
+      "countryCode": "FR",
+      "zoomScale": 50000,
+      "maxSuggestions": 6,
+      "maxResults": 6,
+      "searchInCurrentMapExtent": false,
+      "enableLocalSearch": false,
+      "localSearchMinScale": 300000,
+      "localSearchDistance": 50000,
+      "type": "locator"
+    }
+  ]
+}

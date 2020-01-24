@@ -1,0 +1,91 @@
+{
+  "bookmarks2D": [
+    {
+      "displayName": "Périmètre de l'EPTB",
+      "name": "Périmètre de l'EPTB",
+      "extent": {
+        "type": "extent",
+        "xmin": 553323.6812074982,
+        "ymin": 6659424.289481595,
+        "xmax": 934190.2866053616,
+        "ymax": 6922090.913893915,
+        "spatialReference": {
+          "wkid": 102110,
+          "latestWkid": 2154
+        }
+      },
+      "thumbnail": "${appPath}/configs/Bookmark/thumbnail_5.png",
+      "isInWebmap": false
+    },
+    {
+      "displayName": "Lacs-Réservoirs Seine et Aube",
+      "name": "Lacs-Réservoirs Seine et Aube",
+      "extent": {
+        "type": "extent",
+        "xmin": 792760.7260233534,
+        "ymin": 6793261.142951685,
+        "xmax": 816564.8888607197,
+        "ymax": 6809677.806977455,
+        "spatialReference": {
+          "wkid": 102110,
+          "latestWkid": 2154
+        }
+      },
+      "thumbnail": "${appPath}/configs/Bookmark/thumbnail_6.png",
+      "isInWebmap": false
+    },
+    {
+      "displayName": "Lac-réservoir Marne",
+      "name": "Lac-réservoir Marne",
+      "extent": {
+        "type": "extent",
+        "xmin": 818124.4719431676,
+        "ymin": 6823919.26301981,
+        "xmax": 841928.6347805349,
+        "ymax": 6840335.927045581,
+        "spatialReference": {
+          "wkid": 102110,
+          "latestWkid": 2154
+        }
+      },
+      "thumbnail": "${appPath}/configs/Bookmark/thumbnail_7.png",
+      "isInWebmap": false
+    },
+    {
+      "displayName": "Lac Réservoir Yonne",
+      "name": "Lac Réservoir Yonne",
+      "extent": {
+        "type": "extent",
+        "xmin": 762215.470520404,
+        "ymin": 6667642.881909496,
+        "xmax": 774117.551939089,
+        "ymax": 6675851.213922382,
+        "spatialReference": {
+          "wkid": 102110,
+          "latestWkid": 2154
+        }
+      },
+      "thumbnail": "${appPath}/configs/Bookmark/thumbnail_8.png",
+      "isInWebmap": false
+    },
+    {
+      "displayName": "Région Ile de France",
+      "name": "Région Ile de France",
+      "extent": {
+        "type": "extent",
+        "xmin": 607827.0057730544,
+        "ymin": 6821292.596775687,
+        "xmax": 703043.6571225204,
+        "ymax": 6886959.2528787665,
+        "spatialReference": {
+          "wkid": 102110,
+          "latestWkid": 2154
+        }
+      },
+      "thumbnail": "${appPath}/configs/Bookmark/thumbnail_9.png",
+      "isInWebmap": false
+    }
+  ],
+  "bookmarks3D": [],
+  "flyTime": 3000
+}

@@ -1,0 +1,25 @@
+{
+  "spatialReferences": [
+    {
+      "wkid": "102110",
+      "label": "RGF_1993_Lambert_93",
+      "outputUnit": "METER",
+      "transformationWkid": "",
+      "transformationLabel": "",
+      "transformForward": false,
+      "options": {
+        "sameSRWithMap": true,
+        "isGeographicCS": false,
+        "isGeographicUnit": false,
+        "isProjectedCS": true,
+        "isProjectUnit": true,
+        "spheroidCS": 4171,
+        "defaultUnit": "Meter",
+        "unitRate": 1
+      }
+    }
+  ],
+  "decimalPlaces": 0,
+  "addSeparator": true,
+  "displayOrderLonLat": true
+}

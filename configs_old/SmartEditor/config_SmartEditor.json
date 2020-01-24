@@ -1,0 +1,619 @@
+{
+  "editor": {
+    "layerInfos": [
+      {
+        "featureLayer": {
+          "id": "Patrimoine_Anomalies_Travaux_8974"
+        },
+        "disableGeometryUpdate": false,
+        "allowUpdateOnly": false,
+        "allowDelete": false,
+        "fieldInfos": [
+          {
+            "fieldName": "lac_reservoir",
+            "canPresetValue": false,
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "lieu",
+            "canPresetValue": false,
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "consequence",
+            "canPresetValue": false,
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "description",
+            "canPresetValue": false,
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "id_pat",
+            "canPresetValue": false,
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "type_patrimoine",
+            "canPresetValue": false,
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "date",
+            "canPresetValue": false,
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "fiche_ouverte",
+            "canPresetValue": false,
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "id_anomalie",
+            "canPresetValue": false,
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "globalid",
+            "canPresetValue": false,
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "id_object",
+            "canPresetValue": false,
+            "isEditable": true,
+            "visible": true
+          }
+        ]
+      },
+      {
+        "featureLayer": {
+          "id": "Patrimoine_Anomalies_Travaux_895"
+        },
+        "disableGeometryUpdate": false,
+        "allowUpdateOnly": false,
+        "allowDelete": false,
+        "fieldInfos": [
+          {
+            "fieldName": "id_anomalie",
+            "canPresetValue": false,
+            "isEditable": true,
+            "visible": true
+          }
+        ]
+      },
+      {
+        "featureLayer": {
+          "id": "Patrimoine_Anomalies_Travaux_4462"
+        },
+        "disableGeometryUpdate": false,
+        "allowUpdateOnly": false,
+        "allowDelete": false,
+        "fieldInfos": [
+          {
+            "fieldName": "id_travail",
+            "canPresetValue": false,
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "id_lacreservoir",
+            "canPresetValue": false,
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "id_activite",
+            "canPresetValue": false,
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "id_priorite",
+            "canPresetValue": false,
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "id_status",
+            "canPresetValue": false,
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "id_travailleur",
+            "canPresetValue": false,
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "id_planificateur",
+            "canPresetValue": false,
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "id_createur",
+            "canPresetValue": false,
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "id_anomalie",
+            "canPresetValue": false,
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "lieu",
+            "canPresetValue": false,
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "reference",
+            "canPresetValue": false,
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "consequence",
+            "canPresetValue": false,
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "description",
+            "canPresetValue": false,
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "date",
+            "canPresetValue": false,
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "commentaire",
+            "canPresetValue": false,
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "duree",
+            "canPresetValue": false,
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "id_object",
+            "canPresetValue": false,
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "id_pat",
+            "canPresetValue": false,
+            "isEditable": true,
+            "visible": true
+          }
+        ]
+      },
+      {
+        "featureLayer": {
+          "id": "Patrimoine_Anomalies_Travaux_315"
+        },
+        "disableGeometryUpdate": false,
+        "allowUpdateOnly": false,
+        "allowDelete": false,
+        "fieldInfos": [
+          {
+            "fieldName": "abreviation",
+            "canPresetValue": false,
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "technologie",
+            "canPresetValue": false,
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "riviere",
+            "canPresetValue": false,
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "reservoir",
+            "canPresetValue": false,
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "table_infrastructure",
+            "canPresetValue": false,
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "description",
+            "canPresetValue": false,
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "ouvrage",
+            "canPresetValue": false,
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "code_infra_ouvrage",
+            "canPresetValue": false,
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "code_infra",
+            "canPresetValue": false,
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "id_pat",
+            "canPresetValue": false,
+            "isEditable": true,
+            "visible": true
+          }
+        ]
+      },
+      {
+        "featureLayer": {
+          "id": "Patrimoine_Anomalies_Travaux_4314"
+        },
+        "disableGeometryUpdate": false,
+        "allowUpdateOnly": false,
+        "allowDelete": false,
+        "fieldInfos": [
+          {
+            "fieldName": "riviere",
+            "canPresetValue": false,
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "reservoir",
+            "canPresetValue": false,
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "table_infrastructure",
+            "canPresetValue": false,
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "description",
+            "canPresetValue": false,
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "ouvrage",
+            "canPresetValue": false,
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "code_infra_ouvrage",
+            "canPresetValue": false,
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "code_infra",
+            "canPresetValue": false,
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "type",
+            "canPresetValue": false,
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "niveau",
+            "canPresetValue": false,
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "lien_photo",
+            "canPresetValue": false,
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "id_pat",
+            "canPresetValue": false,
+            "isEditable": true,
+            "visible": true
+          }
+        ]
+      },
+      {
+        "featureLayer": {
+          "id": "Patrimoine_Anomalies_Travaux_2649"
+        },
+        "disableGeometryUpdate": false,
+        "allowUpdateOnly": false,
+        "allowDelete": false,
+        "fieldInfos": [
+          {
+            "fieldName": "id_anomalie",
+            "canPresetValue": false,
+            "isEditable": true,
+            "visible": true
+          }
+        ]
+      },
+      {
+        "featureLayer": {
+          "id": "Patrimoine_Anomalies_Travaux_5246"
+        },
+        "disableGeometryUpdate": false,
+        "allowUpdateOnly": false,
+        "allowDelete": false,
+        "fieldInfos": [
+          {
+            "fieldName": "id_anomalie",
+            "canPresetValue": false,
+            "isEditable": true,
+            "visible": true
+          }
+        ]
+      },
+      {
+        "featureLayer": {
+          "id": "Patrimoine_Anomalies_Travaux_5252"
+        },
+        "disableGeometryUpdate": false,
+        "allowUpdateOnly": false,
+        "allowDelete": false,
+        "fieldInfos": [
+          {
+            "fieldName": "code_ins00",
+            "canPresetValue": false,
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "nom_commun",
+            "canPresetValue": false,
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "id_parcell",
+            "canPresetValue": false,
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "insee_comm",
+            "canPresetValue": false,
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "arrondisse",
+            "canPresetValue": false,
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "section",
+            "canPresetValue": false,
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "feuille",
+            "canPresetValue": false,
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "numero",
+            "canPresetValue": false,
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "adresse",
+            "canPresetValue": false,
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "nature",
+            "canPresetValue": false,
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "code_propr",
+            "canPresetValue": false,
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "affectatio",
+            "canPresetValue": false,
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "surf_impot",
+            "canPresetValue": false,
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "surf_imp00",
+            "canPresetValue": false,
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "surf_imp01",
+            "canPresetValue": false,
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "inventaire",
+            "canPresetValue": false,
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "natura2000",
+            "canPresetValue": false,
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "reserve",
+            "canPresetValue": false,
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "parc_natur",
+            "canPresetValue": false,
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "pourcentag",
+            "canPresetValue": false,
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "pourcent00",
+            "canPresetValue": false,
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "surf_rn_ca",
+            "canPresetValue": false,
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "surf_rc_ca",
+            "canPresetValue": false,
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "pos_reserv",
+            "canPresetValue": false,
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "regime_for",
+            "canPresetValue": false,
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "surf_non_i",
+            "canPresetValue": false,
+            "isEditable": true,
+            "visible": false
+          }
+        ]
+      },
+      {
+        "featureLayer": {
+          "id": "Patrimoine_Anomalies_Travaux_6398"
+        },
+        "disableGeometryUpdate": false,
+        "allowUpdateOnly": false,
+        "allowDelete": false,
+        "fieldInfos": [
+          {
+            "fieldName": "lac_reservoir",
+            "canPresetValue": false,
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "lieu",
+            "canPresetValue": false,
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "consequence",
+            "canPresetValue": false,
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "description",
+            "canPresetValue": false,
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "date",
+            "canPresetValue": false,
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "fiche_ouverte",
+            "canPresetValue": false,
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "id_anomalie",
+            "canPresetValue": false,
+            "isEditable": true,
+            "visible": true
+          }
+        ]
+      }
+    ],
+    "displayPromptOnSave": false,
+    "displayPromptOnDelete": false,
+    "removeOnSave": false,
+    "useFilterEditor": false,
+    "listenToGF": false,
+    "keepTemplateSelected": false,
+    "editDescription": "Sélectionnez un modèle pour créer des entités"
+  }
+}

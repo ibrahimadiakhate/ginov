@@ -1,0 +1,8 @@
+{
+  "serviceURL": "https://sig.seinegrandslacs.fr/arcgis/rest/services/Utilities/PrintingTools/GPServer/Export%20Web%20Map%20Task",
+  "defaultTitle": "Carte",
+  "defaultAuthor": "SIG",
+  "defaultCopyright": "Seine Grands Lacs",
+  "defaultFormat": "PDF",
+  "defaultLayout": "MAP_ONLY"
+}

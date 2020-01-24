@@ -1,0 +1,3905 @@
+{
+  "layerInfos": [
+    {
+      "name": "Tous les travaux",
+      "id": "Anomalies_Travaux_Ginov_EPTB_1283",
+      "layer": {
+        "url": "https://sig.seinegrandslacs.fr/arcgis/rest/services/Collector/Anomalies_Travaux_Ginov_EPTB/FeatureServer/0",
+        "fields": [
+          {
+            "name": "pk",
+            "alias": "pk",
+            "show": false,
+            "format": null
+          },
+          {
+            "name": "objectid",
+            "alias": "objectid",
+            "show": false,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "id_pat",
+            "alias": "id_pat",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "id_anomalie",
+            "alias": "id_anomalie",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "categorie",
+            "alias": "categorie",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "priorite",
+            "alias": "priorite",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "statut",
+            "alias": "statut",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "operateur",
+            "alias": "operateur",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "exploitant",
+            "alias": "exploitant",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "lieu",
+            "alias": "lieu",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "description",
+            "alias": "description",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "date_creation",
+            "alias": "date_creation",
+            "show": true,
+            "format": {
+              "dateFormat": "longMonthDayYear"
+            }
+          },
+          {
+            "name": "date_fin_prev",
+            "alias": "date_fin_prev",
+            "show": true,
+            "format": {
+              "dateFormat": "longMonthDayYear"
+            }
+          },
+          {
+            "name": "date_fin_eff",
+            "alias": "date_fin_eff",
+            "show": true,
+            "format": {
+              "dateFormat": "longMonthDayYear"
+            }
+          },
+          {
+            "name": "commentaire",
+            "alias": "commentaire",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "duree",
+            "alias": "duree",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "gdb_archive_oid",
+            "alias": "gdb_archive_oid",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "gdb_from_date",
+            "alias": "gdb_from_date",
+            "show": true,
+            "format": {
+              "dateFormat": "longMonthDayYear"
+            }
+          },
+          {
+            "name": "gdb_to_date",
+            "alias": "gdb_to_date",
+            "show": true,
+            "format": {
+              "dateFormat": "longMonthDayYear"
+            }
+          },
+          {
+            "name": "globalid",
+            "alias": "globalid",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "engins",
+            "alias": "engins",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "activites",
+            "alias": "activites",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "groupe",
+            "alias": "groupe",
+            "show": true,
+            "format": null
+          }
+        ]
+      },
+      "show": true,
+      "showAttachments": false
+    },
+    {
+      "name": "Toutes les anomalies",
+      "id": "Anomalies_Travaux_Ginov_EPTB_3788",
+      "layer": {
+        "url": "https://sig.seinegrandslacs.fr/arcgis/rest/services/Collector/Anomalies_Travaux_Ginov_EPTB/FeatureServer/1",
+        "fields": [
+          {
+            "name": "pk",
+            "alias": "pk",
+            "show": false,
+            "format": null
+          },
+          {
+            "name": "objectid",
+            "alias": "objectid",
+            "show": false,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "id_pat",
+            "alias": "id_pat",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "lac",
+            "alias": "lac",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "operateur",
+            "alias": "operateur",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "lieu",
+            "alias": "lieu",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "reference",
+            "alias": "reference",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "consequence",
+            "alias": "consequence",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "description",
+            "alias": "description",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "organe",
+            "alias": "organe",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "id_anomalie",
+            "alias": "id_anomalie",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "gdb_archive_oid",
+            "alias": "gdb_archive_oid",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "gdb_from_date",
+            "alias": "gdb_from_date",
+            "show": true,
+            "format": {
+              "dateFormat": "longMonthDayYear"
+            }
+          },
+          {
+            "name": "gdb_to_date",
+            "alias": "gdb_to_date",
+            "show": true,
+            "format": {
+              "dateFormat": "longMonthDayYear"
+            }
+          },
+          {
+            "name": "globalid",
+            "alias": "globalid",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "date",
+            "alias": "date",
+            "show": true,
+            "format": {
+              "dateFormat": "longMonthDayYear"
+            }
+          },
+          {
+            "name": "statut",
+            "alias": "statut",
+            "show": true,
+            "format": null
+          }
+        ]
+      },
+      "show": true,
+      "showAttachments": false
+    },
+    {
+      "name": "Travail ponctuel",
+      "id": "Anomalies_Travaux_Ginov_EPTB_2311",
+      "layer": {
+        "url": "https://sig.seinegrandslacs.fr/arcgis/rest/services/Collector/Anomalies_Travaux_Ginov_EPTB/FeatureServer/2",
+        "fields": [
+          {
+            "name": "pk",
+            "alias": "pk",
+            "show": false,
+            "format": null
+          },
+          {
+            "name": "objectid",
+            "alias": "objectid",
+            "show": false,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "id_pat",
+            "alias": "id_pat",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "id_anomalie",
+            "alias": "id_anomalie",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "categorie",
+            "alias": "categorie",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "priorite",
+            "alias": "priorite",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "statut",
+            "alias": "statut",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "operateur",
+            "alias": "operateur",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "exploitant",
+            "alias": "exploitant",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "lieu",
+            "alias": "lieu",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "description",
+            "alias": "description",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "date_creation",
+            "alias": "date_creation",
+            "show": true,
+            "format": {
+              "dateFormat": "longMonthDayYear"
+            }
+          },
+          {
+            "name": "date_fin_prev",
+            "alias": "date_fin_prev",
+            "show": true,
+            "format": {
+              "dateFormat": "longMonthDayYear"
+            }
+          },
+          {
+            "name": "date_fin_eff",
+            "alias": "date_fin_eff",
+            "show": true,
+            "format": {
+              "dateFormat": "longMonthDayYear"
+            }
+          },
+          {
+            "name": "commentaire",
+            "alias": "commentaire",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "duree",
+            "alias": "duree",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "gdb_archive_oid",
+            "alias": "gdb_archive_oid",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "gdb_from_date",
+            "alias": "gdb_from_date",
+            "show": true,
+            "format": {
+              "dateFormat": "longMonthDayYear"
+            }
+          },
+          {
+            "name": "gdb_to_date",
+            "alias": "gdb_to_date",
+            "show": true,
+            "format": {
+              "dateFormat": "longMonthDayYear"
+            }
+          },
+          {
+            "name": "globalid",
+            "alias": "globalid",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "engins",
+            "alias": "engins",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "activites",
+            "alias": "activites",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "groupe",
+            "alias": "groupe",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "gl",
+            "alias": "gl",
+            "show": true,
+            "format": null
+          }
+        ]
+      },
+      "show": true,
+      "showAttachments": false
+    },
+    {
+      "name": "Anomalie ponctuelle",
+      "id": "Anomalies_Travaux_Ginov_EPTB_9271",
+      "layer": {
+        "url": "https://sig.seinegrandslacs.fr/arcgis/rest/services/Collector/Anomalies_Travaux_Ginov_EPTB/FeatureServer/3",
+        "fields": [
+          {
+            "name": "pk",
+            "alias": "pk",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "objectid",
+            "alias": "objectid",
+            "show": false,
+            "format": null
+          },
+          {
+            "name": "id_pat",
+            "alias": "id_pat",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "lac",
+            "alias": "lac",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "operateur",
+            "alias": "operateur",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "lieu",
+            "alias": "lieu",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "reference",
+            "alias": "reference",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "consequence",
+            "alias": "consequence",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "description",
+            "alias": "description",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "organe",
+            "alias": "organe",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "id_anomalie",
+            "alias": "id_anomalie",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "gdb_archive_oid",
+            "alias": "gdb_archive_oid",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "gdb_from_date",
+            "alias": "gdb_from_date",
+            "show": true,
+            "format": {
+              "dateFormat": "longMonthDayYear"
+            }
+          },
+          {
+            "name": "gdb_to_date",
+            "alias": "gdb_to_date",
+            "show": true,
+            "format": {
+              "dateFormat": "longMonthDayYear"
+            }
+          },
+          {
+            "name": "globalid",
+            "alias": "globalid",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "date",
+            "alias": "date",
+            "show": true,
+            "format": {
+              "dateFormat": "longMonthDayYear"
+            }
+          },
+          {
+            "name": "statut",
+            "alias": "statut",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "gl",
+            "alias": "gl",
+            "show": true,
+            "format": null
+          }
+        ]
+      },
+      "show": true,
+      "showAttachments": false
+    },
+    {
+      "name": "Les 10 dernières anomalies",
+      "id": "Anomalies_Travaux_Ginov_EPTB_8125",
+      "layer": {
+        "url": "https://sig.seinegrandslacs.fr/arcgis/rest/services/Collector/Anomalies_Travaux_Ginov_EPTB/FeatureServer/4",
+        "fields": [
+          {
+            "name": "objectid",
+            "alias": "objectid",
+            "show": false,
+            "format": null
+          },
+          {
+            "name": "id_pat",
+            "alias": "id_pat",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "lac",
+            "alias": "lac",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "operateur",
+            "alias": "operateur",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "lieu",
+            "alias": "lieu",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "reference",
+            "alias": "reference",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "consequence",
+            "alias": "consequence",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "description",
+            "alias": "description",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "organe",
+            "alias": "organe",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "id_anomalie",
+            "alias": "id_anomalie",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "gdb_archive_oid",
+            "alias": "gdb_archive_oid",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "gdb_from_date",
+            "alias": "gdb_from_date",
+            "show": true,
+            "format": {
+              "dateFormat": "longMonthDayYear"
+            }
+          },
+          {
+            "name": "gdb_to_date",
+            "alias": "gdb_to_date",
+            "show": true,
+            "format": {
+              "dateFormat": "longMonthDayYear"
+            }
+          },
+          {
+            "name": "globalid",
+            "alias": "globalid",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "date",
+            "alias": "date",
+            "show": true,
+            "format": {
+              "dateFormat": "longMonthDayYear"
+            }
+          },
+          {
+            "name": "statut",
+            "alias": "statut",
+            "show": true,
+            "format": null
+          }
+        ]
+      },
+      "show": true,
+      "showAttachments": false
+    },
+    {
+      "name": "Travail linéaire",
+      "id": "Anomalies_Travaux_Ginov_EPTB_5584",
+      "layer": {
+        "url": "https://sig.seinegrandslacs.fr/arcgis/rest/services/Collector/Anomalies_Travaux_Ginov_EPTB/FeatureServer/5",
+        "fields": [
+          {
+            "name": "pk",
+            "alias": "pk",
+            "show": false,
+            "format": null
+          },
+          {
+            "name": "objectid",
+            "alias": "objectid",
+            "show": false,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "id_pat",
+            "alias": "id_pat",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "id_anomalie",
+            "alias": "id_anomalie",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "categorie",
+            "alias": "categorie",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "priorite",
+            "alias": "priorite",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "statut",
+            "alias": "statut",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "operateur",
+            "alias": "operateur",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "exploitant",
+            "alias": "exploitant",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "lieu",
+            "alias": "lieu",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "description",
+            "alias": "description",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "date_creation",
+            "alias": "date_creation",
+            "show": true,
+            "format": {
+              "dateFormat": "longMonthDayYear"
+            }
+          },
+          {
+            "name": "date_fin_prev",
+            "alias": "date_fin_prev",
+            "show": true,
+            "format": {
+              "dateFormat": "longMonthDayYear"
+            }
+          },
+          {
+            "name": "date_fin_eff",
+            "alias": "date_fin_eff",
+            "show": true,
+            "format": {
+              "dateFormat": "longMonthDayYear"
+            }
+          },
+          {
+            "name": "commentaire",
+            "alias": "commentaire",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "duree",
+            "alias": "duree",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "gdb_archive_oid",
+            "alias": "gdb_archive_oid",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "gdb_from_date",
+            "alias": "gdb_from_date",
+            "show": true,
+            "format": {
+              "dateFormat": "longMonthDayYear"
+            }
+          },
+          {
+            "name": "gdb_to_date",
+            "alias": "gdb_to_date",
+            "show": true,
+            "format": {
+              "dateFormat": "longMonthDayYear"
+            }
+          },
+          {
+            "name": "globalid",
+            "alias": "globalid",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "engins",
+            "alias": "engins",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "activites",
+            "alias": "activites",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "groupe",
+            "alias": "groupe",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "id_global",
+            "alias": "id_global",
+            "show": true,
+            "format": null
+          }
+        ]
+      },
+      "show": true,
+      "showAttachments": false
+    },
+    {
+      "name": "Anomalie linéaire",
+      "id": "Anomalies_Travaux_Ginov_EPTB_4490",
+      "layer": {
+        "url": "https://sig.seinegrandslacs.fr/arcgis/rest/services/Collector/Anomalies_Travaux_Ginov_EPTB/FeatureServer/6",
+        "fields": [
+          {
+            "name": "pk",
+            "alias": "pk",
+            "show": false,
+            "format": null
+          },
+          {
+            "name": "objectid",
+            "alias": "objectid",
+            "show": false,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "id_pat",
+            "alias": "id_pat",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "lac",
+            "alias": "lac",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "operateur",
+            "alias": "operateur",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "lieu",
+            "alias": "lieu",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "reference",
+            "alias": "reference",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "consequence",
+            "alias": "consequence",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "description",
+            "alias": "description",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "organe",
+            "alias": "organe",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "id_anomalie",
+            "alias": "id_anomalie",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "gdb_archive_oid",
+            "alias": "gdb_archive_oid",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "gdb_from_date",
+            "alias": "gdb_from_date",
+            "show": true,
+            "format": {
+              "dateFormat": "longMonthDayYear"
+            }
+          },
+          {
+            "name": "gdb_to_date",
+            "alias": "gdb_to_date",
+            "show": true,
+            "format": {
+              "dateFormat": "longMonthDayYear"
+            }
+          },
+          {
+            "name": "globalid",
+            "alias": "globalid",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "date",
+            "alias": "date",
+            "show": true,
+            "format": {
+              "dateFormat": "longMonthDayYear"
+            }
+          },
+          {
+            "name": "statut",
+            "alias": "statut",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "id_global",
+            "alias": "id_global",
+            "show": true,
+            "format": null
+          }
+        ]
+      },
+      "show": true,
+      "showAttachments": false
+    },
+    {
+      "name": "Travail surfacique",
+      "id": "Anomalies_Travaux_Ginov_EPTB_199",
+      "layer": {
+        "url": "https://sig.seinegrandslacs.fr/arcgis/rest/services/Collector/Anomalies_Travaux_Ginov_EPTB/FeatureServer/7",
+        "fields": [
+          {
+            "name": "pk",
+            "alias": "pk",
+            "show": false,
+            "format": null
+          },
+          {
+            "name": "objectid",
+            "alias": "objectid",
+            "show": false,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "id_pat",
+            "alias": "id_pat",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "id_anomalie",
+            "alias": "id_anomalie",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "categorie",
+            "alias": "categorie",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "priorite",
+            "alias": "priorite",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "statut",
+            "alias": "statut",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "operateur",
+            "alias": "operateur",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "exploitant",
+            "alias": "exploitant",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "lieu",
+            "alias": "lieu",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "description",
+            "alias": "description",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "date_creation",
+            "alias": "date_creation",
+            "show": true,
+            "format": {
+              "dateFormat": "longMonthDayYear"
+            }
+          },
+          {
+            "name": "date_fin_prev",
+            "alias": "date_fin_prev",
+            "show": true,
+            "format": {
+              "dateFormat": "longMonthDayYear"
+            }
+          },
+          {
+            "name": "date_fin_eff",
+            "alias": "date_fin_eff",
+            "show": true,
+            "format": {
+              "dateFormat": "longMonthDayYear"
+            }
+          },
+          {
+            "name": "commentaire",
+            "alias": "commentaire",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "duree",
+            "alias": "duree",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "gdb_archive_oid",
+            "alias": "gdb_archive_oid",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "gdb_from_date",
+            "alias": "gdb_from_date",
+            "show": true,
+            "format": {
+              "dateFormat": "longMonthDayYear"
+            }
+          },
+          {
+            "name": "gdb_to_date",
+            "alias": "gdb_to_date",
+            "show": true,
+            "format": {
+              "dateFormat": "longMonthDayYear"
+            }
+          },
+          {
+            "name": "globalid",
+            "alias": "globalid",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "engins",
+            "alias": "engins",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "activites",
+            "alias": "activites",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "groupe",
+            "alias": "groupe",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "id_global",
+            "alias": "id_global",
+            "show": true,
+            "format": null
+          }
+        ]
+      },
+      "show": true,
+      "showAttachments": false
+    },
+    {
+      "name": "Anomalie surfacique",
+      "id": "Anomalies_Travaux_Ginov_EPTB_3950",
+      "layer": {
+        "url": "https://sig.seinegrandslacs.fr/arcgis/rest/services/Collector/Anomalies_Travaux_Ginov_EPTB/FeatureServer/8",
+        "fields": [
+          {
+            "name": "pk",
+            "alias": "pk",
+            "show": false,
+            "format": null
+          },
+          {
+            "name": "objectid",
+            "alias": "objectid",
+            "show": false,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "id_pat",
+            "alias": "id_pat",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "lac",
+            "alias": "lac",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "operateur",
+            "alias": "operateur",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "lieu",
+            "alias": "lieu",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "reference",
+            "alias": "reference",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "consequence",
+            "alias": "consequence",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "description",
+            "alias": "description",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "organe",
+            "alias": "organe",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "id_anomalie",
+            "alias": "id_anomalie",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "gdb_archive_oid",
+            "alias": "gdb_archive_oid",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "gdb_from_date",
+            "alias": "gdb_from_date",
+            "show": true,
+            "format": {
+              "dateFormat": "longMonthDayYear"
+            }
+          },
+          {
+            "name": "gdb_to_date",
+            "alias": "gdb_to_date",
+            "show": true,
+            "format": {
+              "dateFormat": "longMonthDayYear"
+            }
+          },
+          {
+            "name": "globalid",
+            "alias": "globalid",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "date",
+            "alias": "date",
+            "show": true,
+            "format": {
+              "dateFormat": "longMonthDayYear"
+            }
+          },
+          {
+            "name": "statut",
+            "alias": "statut",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "id",
+            "alias": "id",
+            "show": true,
+            "format": null
+          }
+        ]
+      },
+      "show": true,
+      "showAttachments": false
+    },
+    {
+      "name": "ginov_entite2 - ginov_dev.ginov.entite_ponctuelle",
+      "id": "ginov_entite2_583",
+      "layer": {
+        "url": "https://sig.seinegrandslacs.fr/arcgis/rest/services/Collector/ginov_entite2/FeatureServer/0",
+        "fields": [
+          {
+            "name": "objectid",
+            "alias": "OBJECTID",
+            "show": false,
+            "format": null
+          },
+          {
+            "name": "id_anomalie",
+            "alias": "id_anomalie",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "globalid",
+            "alias": "globalid",
+            "show": false,
+            "format": null
+          }
+        ]
+      },
+      "show": true,
+      "showAttachments": false
+    },
+    {
+      "name": "ginov_entite2 - ginov_dev.ginov.entite_lineaire",
+      "id": "ginov_entite2_5449",
+      "layer": {
+        "url": "https://sig.seinegrandslacs.fr/arcgis/rest/services/Collector/ginov_entite2/FeatureServer/1",
+        "fields": [
+          {
+            "name": "objectid",
+            "alias": "OBJECTID",
+            "show": false,
+            "format": null
+          },
+          {
+            "name": "id_anomalie",
+            "alias": "id_anomalie",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "globalid",
+            "alias": "globalid",
+            "show": false,
+            "format": null
+          }
+        ]
+      },
+      "show": true,
+      "showAttachments": false
+    },
+    {
+      "name": "ginov_entite2 - ginov_dev.ginov.entite_surfacique",
+      "id": "ginov_entite2_41",
+      "layer": {
+        "url": "https://sig.seinegrandslacs.fr/arcgis/rest/services/Collector/ginov_entite2/FeatureServer/2",
+        "fields": [
+          {
+            "name": "objectid",
+            "alias": "OBJECTID",
+            "show": false,
+            "format": null
+          },
+          {
+            "name": "id_anomalie",
+            "alias": "id_anomalie",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "globalid",
+            "alias": "globalid",
+            "show": false,
+            "format": null
+          }
+        ]
+      },
+      "show": true,
+      "showAttachments": false
+    },
+    {
+      "name": "ginov_patrimoine2 - ginov_dev.ginov.sirene",
+      "id": "ginov_patrimoine2_2205",
+      "layer": {
+        "url": "https://sig.seinegrandslacs.fr/arcgis/rest/services/Collector/ginov_patrimoine2/FeatureServer/0",
+        "fields": [
+          {
+            "name": "objectid",
+            "alias": "objectid",
+            "show": false,
+            "format": null
+          },
+          {
+            "name": "abreviation",
+            "alias": "abreviation",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "code_complet",
+            "alias": "code_complet",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "reservoir",
+            "alias": "reservoir",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "table_infrastructure",
+            "alias": "table_infrastructure",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "description",
+            "alias": "description",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "ouvrage",
+            "alias": "ouvrage",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "code_infra_ouvrage",
+            "alias": "code_infra_ouvrage",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "code_infra",
+            "alias": "code_infra",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "orig_fid",
+            "alias": "orig_fid",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "globalid",
+            "alias": "globalid",
+            "show": false,
+            "format": null
+          },
+          {
+            "name": "id_pat",
+            "alias": "id_pat",
+            "show": true,
+            "format": null
+          }
+        ]
+      },
+      "show": true,
+      "showAttachments": false
+    },
+    {
+      "name": "ginov_patrimoine2 - ginov_dev.ginov.puits_mesure",
+      "id": "ginov_patrimoine2_3503",
+      "layer": {
+        "url": "https://sig.seinegrandslacs.fr/arcgis/rest/services/Collector/ginov_patrimoine2/FeatureServer/1",
+        "fields": [
+          {
+            "name": "objectid",
+            "alias": "objectid",
+            "show": false,
+            "format": null
+          },
+          {
+            "name": "id",
+            "alias": "id",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "reservoir",
+            "alias": "reservoir",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "gestionnai",
+            "alias": "gestionnai",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "nomination",
+            "alias": "nomination",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "nom",
+            "alias": "nom",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "libelle",
+            "alias": "libelle",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "situation",
+            "alias": "situation",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "ouv_riv",
+            "alias": "ouv_riv",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "code",
+            "alias": "code",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "local_tech",
+            "alias": "local_tech",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "donnees",
+            "alias": "donnees",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "code_ogde",
+            "alias": "code_ogde",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "utilisatio",
+            "alias": "utilisatio",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "capteur",
+            "alias": "capteur",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "marque_mod",
+            "alias": "marque_mod",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "enregistre",
+            "alias": "enregistre",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "transmissi",
+            "alias": "transmissi",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "interogati",
+            "alias": "interogati",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "telephonie",
+            "alias": "telephonie",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "energie",
+            "alias": "energie",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "posx_l93",
+            "alias": "posx_l93",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "posy_l93",
+            "alias": "posy_l93",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "id_bat",
+            "alias": "id_bat",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "orig_fid",
+            "alias": "orig_fid",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "globalid",
+            "alias": "globalid",
+            "show": false,
+            "format": null
+          },
+          {
+            "name": "id_pat",
+            "alias": "id_pat",
+            "show": true,
+            "format": null
+          }
+        ]
+      },
+      "show": true,
+      "showAttachments": false
+    },
+    {
+      "name": "ginov_patrimoine2 - ginov_dev.ginov.pont",
+      "id": "ginov_patrimoine2_315",
+      "layer": {
+        "url": "https://sig.seinegrandslacs.fr/arcgis/rest/services/Collector/ginov_patrimoine2/FeatureServer/2",
+        "fields": [
+          {
+            "name": "objectid",
+            "alias": "objectid",
+            "show": false,
+            "format": null
+          },
+          {
+            "name": "description",
+            "alias": "description",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "reservoir",
+            "alias": "reservoir",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "table_infrastructure",
+            "alias": "table_infrastructure",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "ouvrage",
+            "alias": "ouvrage",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "code_infra_ouvrage",
+            "alias": "code_infra_ouvrage",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "code_infra",
+            "alias": "code_infra",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "lien_photo",
+            "alias": "lien_photo",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "globalid",
+            "alias": "globalid",
+            "show": false,
+            "format": null
+          },
+          {
+            "name": "id_pat",
+            "alias": "id_pat",
+            "show": true,
+            "format": null
+          }
+        ]
+      },
+      "show": true,
+      "showAttachments": false
+    },
+    {
+      "name": "ginov_patrimoine2 - ginov_dev.ginov.pluviometre",
+      "id": "ginov_patrimoine2_3860",
+      "layer": {
+        "url": "https://sig.seinegrandslacs.fr/arcgis/rest/services/Collector/ginov_patrimoine2/FeatureServer/3",
+        "fields": [
+          {
+            "name": "objectid",
+            "alias": "objectid",
+            "show": false,
+            "format": null
+          },
+          {
+            "name": "date",
+            "alias": "date",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "nom_complet",
+            "alias": "nom_complet",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "situation",
+            "alias": "situation",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "telephonie",
+            "alias": "telephonie",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "supervision",
+            "alias": "supervision",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "interrogation",
+            "alias": "interrogation",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "capteur",
+            "alias": "capteur",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "enregistreur",
+            "alias": "enregistreur",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "transmission",
+            "alias": "transmission",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "energie",
+            "alias": "energie",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "description",
+            "alias": "description",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "reservoir",
+            "alias": "reservoir",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "table_infrastructure",
+            "alias": "table_infrastructure",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "ouvrage",
+            "alias": "ouvrage",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "code_infra_ouvrage",
+            "alias": "code_infra_ouvrage",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "code_infra",
+            "alias": "code_infra",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "orig_fid",
+            "alias": "orig_fid",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "globalid",
+            "alias": "globalid",
+            "show": false,
+            "format": null
+          },
+          {
+            "name": "id_pat",
+            "alias": "id_pat",
+            "show": true,
+            "format": null
+          }
+        ]
+      },
+      "show": true,
+      "showAttachments": false
+    },
+    {
+      "name": "ginov_patrimoine2 - ginov_dev.ginov.ouvrage_hydraulique_ponctuel",
+      "id": "ginov_patrimoine2_402",
+      "layer": {
+        "url": "https://sig.seinegrandslacs.fr/arcgis/rest/services/Collector/ginov_patrimoine2/FeatureServer/4",
+        "fields": [
+          {
+            "name": "objectid",
+            "alias": "objectid",
+            "show": false,
+            "format": null
+          },
+          {
+            "name": "riviere",
+            "alias": "riviere",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "abreviation",
+            "alias": "abreviation",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "reservoir",
+            "alias": "reservoir",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "description",
+            "alias": "description",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "ouvrage",
+            "alias": "ouvrage",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "code_infra_ouvrage",
+            "alias": "code_infra_ouvrage",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "code_infra",
+            "alias": "code_infra",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "bati_associe",
+            "alias": "bati_associe",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "commune",
+            "alias": "commune",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "code_insee",
+            "alias": "code_insee",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "niveau",
+            "alias": "niveau",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "grand_publ",
+            "alias": "grand_publ",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "type",
+            "alias": "type",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "lien_photo",
+            "alias": "lien_photo",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "globalid",
+            "alias": "globalid",
+            "show": false,
+            "format": null
+          },
+          {
+            "name": "id_pat",
+            "alias": "id_pat",
+            "show": true,
+            "format": null
+          }
+        ]
+      },
+      "show": true,
+      "showAttachments": false
+    },
+    {
+      "name": "ginov_patrimoine2 - ginov_dev.ginov.jauge",
+      "id": "ginov_patrimoine2_9080",
+      "layer": {
+        "url": "https://sig.seinegrandslacs.fr/arcgis/rest/services/Collector/ginov_patrimoine2/FeatureServer/5",
+        "fields": [
+          {
+            "name": "objectid",
+            "alias": "objectid",
+            "show": false,
+            "format": null
+          },
+          {
+            "name": "id",
+            "alias": "id",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "reservoir",
+            "alias": "reservoir",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "nomination",
+            "alias": "nomination",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "nom",
+            "alias": "nom",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "libelle",
+            "alias": "libelle",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "situation",
+            "alias": "situation",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "ouv_riv",
+            "alias": "ouv_riv",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "code",
+            "alias": "code",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "posx_l93",
+            "alias": "posx_l93",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "posy_l93",
+            "alias": "posy_l93",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "orig_fid",
+            "alias": "orig_fid",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "globalid",
+            "alias": "globalid",
+            "show": false,
+            "format": null
+          },
+          {
+            "name": "id_pat",
+            "alias": "id_pat",
+            "show": true,
+            "format": null
+          }
+        ]
+      },
+      "show": true,
+      "showAttachments": false
+    },
+    {
+      "name": "ginov_patrimoine2 - ginov_dev.ginov.borne",
+      "id": "ginov_patrimoine2_3521",
+      "layer": {
+        "url": "https://sig.seinegrandslacs.fr/arcgis/rest/services/Collector/ginov_patrimoine2/FeatureServer/6",
+        "fields": [
+          {
+            "name": "objectid",
+            "alias": "objectid",
+            "show": false,
+            "format": null
+          },
+          {
+            "name": "id",
+            "alias": "id",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "reservoir",
+            "alias": "reservoir",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "nom_borne",
+            "alias": "nom_borne",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "x_lamb93",
+            "alias": "x_lamb93",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "y_lamb93",
+            "alias": "y_lamb93",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "x_lambert1",
+            "alias": "x_lambert1",
+            "show": true,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "y_lambert1",
+            "alias": "y_lambert1",
+            "show": true,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "code_insee",
+            "alias": "code_insee",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "nom_comm",
+            "alias": "nom_comm",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "source",
+            "alias": "source",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "globalid",
+            "alias": "globalid",
+            "show": false,
+            "format": null
+          },
+          {
+            "name": "id_pat",
+            "alias": "id_pat",
+            "show": true,
+            "format": null
+          }
+        ]
+      },
+      "show": true,
+      "showAttachments": false
+    },
+    {
+      "name": "ginov_patrimoine2 - ginov_dev.ginov.batiment",
+      "id": "ginov_patrimoine2_4045",
+      "layer": {
+        "url": "https://sig.seinegrandslacs.fr/arcgis/rest/services/Collector/ginov_patrimoine2/FeatureServer/7",
+        "fields": [
+          {
+            "name": "objectid",
+            "alias": "objectid",
+            "show": false,
+            "format": null
+          },
+          {
+            "name": "ouvrage",
+            "alias": "ouvrage",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "id_ouvrage",
+            "alias": "id_ouvrage",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "id_bat",
+            "alias": "id_bat",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "commune",
+            "alias": "commune",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "cde_postal",
+            "alias": "cde_postal",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "adresse",
+            "alias": "adresse",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "localisati",
+            "alias": "localisati",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "nature_loc",
+            "alias": "nature_loc",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "utilisatio",
+            "alias": "utilisatio",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "superficie",
+            "alias": "superficie",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "statut",
+            "alias": "statut",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "x",
+            "alias": "x",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "y",
+            "alias": "y",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "type_bat",
+            "alias": "type_bat",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "occupe",
+            "alias": "occupe",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "grand_publ",
+            "alias": "grand_publ",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "bat_princ",
+            "alias": "bat_princ",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "x_geo",
+            "alias": "x_geo",
+            "show": true,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "y_geo",
+            "alias": "y_geo",
+            "show": true,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "vente",
+            "alias": "vente",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "code_usuel",
+            "alias": "code_usuel",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "lien_photo",
+            "alias": "lien_photo",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "globalid",
+            "alias": "globalid",
+            "show": false,
+            "format": null
+          },
+          {
+            "name": "id_pat",
+            "alias": "id_pat",
+            "show": true,
+            "format": null
+          }
+        ]
+      },
+      "show": true,
+      "showAttachments": false
+    },
+    {
+      "name": "ginov_patrimoine2 - ginov_dev.ginov.antenne_radio",
+      "id": "ginov_patrimoine2_4267",
+      "layer": {
+        "url": "https://sig.seinegrandslacs.fr/arcgis/rest/services/Collector/ginov_patrimoine2/FeatureServer/8",
+        "fields": [
+          {
+            "name": "objectid",
+            "alias": "objectid",
+            "show": false,
+            "format": null
+          },
+          {
+            "name": "abreviation",
+            "alias": "abreviation",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "usage",
+            "alias": "usage",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "technologie",
+            "alias": "technologie",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "reservoir",
+            "alias": "reservoir",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "table_infrastructure",
+            "alias": "table_infrastructure",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "description",
+            "alias": "description",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "ouvrage",
+            "alias": "ouvrage",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "code_infra_ouvrage",
+            "alias": "code_infra_ouvrage",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "code_infra",
+            "alias": "code_infra",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "orig_fid",
+            "alias": "orig_fid",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "globalid",
+            "alias": "globalid",
+            "show": false,
+            "format": null
+          },
+          {
+            "name": "id_pat",
+            "alias": "id_pat",
+            "show": true,
+            "format": null
+          }
+        ]
+      },
+      "show": true,
+      "showAttachments": false
+    },
+    {
+      "name": "ginov_patrimoine2 - ginov_dev.ginov.abrimesure",
+      "id": "ginov_patrimoine2_8503",
+      "layer": {
+        "url": "https://sig.seinegrandslacs.fr/arcgis/rest/services/Collector/ginov_patrimoine2/FeatureServer/9",
+        "fields": [
+          {
+            "name": "objectid",
+            "alias": "objectid",
+            "show": false,
+            "format": null
+          },
+          {
+            "name": "abreviation",
+            "alias": "abreviation",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "technologie",
+            "alias": "technologie",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "riviere",
+            "alias": "riviere",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "reservoir",
+            "alias": "reservoir",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "table_infrastructure",
+            "alias": "table_infrastructure",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "description",
+            "alias": "description",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "ouvrage",
+            "alias": "ouvrage",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "code_infra_ouvrage",
+            "alias": "code_infra_ouvrage",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "code_infra",
+            "alias": "code_infra",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "globalid",
+            "alias": "globalid",
+            "show": false,
+            "format": null
+          },
+          {
+            "name": "id_pat",
+            "alias": "id_pat",
+            "show": true,
+            "format": null
+          }
+        ]
+      },
+      "show": true,
+      "showAttachments": false
+    },
+    {
+      "name": "ginov_patrimoine2 - ginov_dev.ginov.ripisylve",
+      "id": "ginov_patrimoine2_108",
+      "layer": {
+        "url": "https://sig.seinegrandslacs.fr/arcgis/rest/services/Collector/ginov_patrimoine2/FeatureServer/10",
+        "fields": [
+          {
+            "name": "objectid",
+            "alias": "objectid",
+            "show": false,
+            "format": null
+          },
+          {
+            "name": "essence_do",
+            "alias": "essence_do",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "essence_se",
+            "alias": "essence_se",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "ouvrage",
+            "alias": "ouvrage",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "code_infra",
+            "alias": "code_infra",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "longueur",
+            "alias": "longueur",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "hauteur",
+            "alias": "hauteur",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "largeur",
+            "alias": "largeur",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "lien_photo",
+            "alias": "lien_photo",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "globalid",
+            "alias": "globalid",
+            "show": false,
+            "format": null
+          },
+          {
+            "name": "id_pat",
+            "alias": "id_pat",
+            "show": true,
+            "format": null
+          }
+        ]
+      },
+      "show": true,
+      "showAttachments": false
+    },
+    {
+      "name": "ginov_patrimoine2 - ginov_dev.ginov.ouvrage_hydraulique_lineaire",
+      "id": "ginov_patrimoine2_1851",
+      "layer": {
+        "url": "https://sig.seinegrandslacs.fr/arcgis/rest/services/Collector/ginov_patrimoine2/FeatureServer/11",
+        "fields": [
+          {
+            "name": "objectid",
+            "alias": "objectid",
+            "show": false,
+            "format": null
+          },
+          {
+            "name": "riviere",
+            "alias": "riviere",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "reservoir",
+            "alias": "reservoir",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "table_infrastructure",
+            "alias": "table_infrastructure",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "description",
+            "alias": "description",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "ouvrage",
+            "alias": "ouvrage",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "code_infra_ouvrage",
+            "alias": "code_infra_ouvrage",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "code_infra",
+            "alias": "code_infra",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "type",
+            "alias": "type",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "niveau",
+            "alias": "niveau",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "lien_photo",
+            "alias": "lien_photo",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "globalid",
+            "alias": "globalid",
+            "show": false,
+            "format": null
+          },
+          {
+            "name": "id_pat",
+            "alias": "id_pat",
+            "show": true,
+            "format": null
+          }
+        ]
+      },
+      "show": true,
+      "showAttachments": false
+    },
+    {
+      "name": "ginov_patrimoine2 - ginov_dev.ginov.limite_borne",
+      "id": "ginov_patrimoine2_3757",
+      "layer": {
+        "url": "https://sig.seinegrandslacs.fr/arcgis/rest/services/Collector/ginov_patrimoine2/FeatureServer/12",
+        "fields": [
+          {
+            "name": "objectid",
+            "alias": "objectid",
+            "show": false,
+            "format": null
+          },
+          {
+            "name": "id",
+            "alias": "id",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "reservoir",
+            "alias": "reservoir",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "globalid",
+            "alias": "globalid",
+            "show": false,
+            "format": null
+          },
+          {
+            "name": "id_pat",
+            "alias": "id_pat",
+            "show": true,
+            "format": null
+          }
+        ]
+      },
+      "show": true,
+      "showAttachments": false
+    },
+    {
+      "name": "ginov_patrimoine2 - ginov_dev.ginov.haie",
+      "id": "ginov_patrimoine2_7229",
+      "layer": {
+        "url": "https://sig.seinegrandslacs.fr/arcgis/rest/services/Collector/ginov_patrimoine2/FeatureServer/13",
+        "fields": [
+          {
+            "name": "objectid",
+            "alias": "objectid",
+            "show": false,
+            "format": null
+          },
+          {
+            "name": "essence_do",
+            "alias": "essence_do",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "essence_se",
+            "alias": "essence_se",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "ouvrage",
+            "alias": "ouvrage",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "code_infra",
+            "alias": "code_infra",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "longueur",
+            "alias": "longueur",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "hauteur",
+            "alias": "hauteur",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "largeur",
+            "alias": "largeur",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "lien_photo",
+            "alias": "lien_photo",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "globalid",
+            "alias": "globalid",
+            "show": false,
+            "format": null
+          },
+          {
+            "name": "id_pat",
+            "alias": "id_pat",
+            "show": true,
+            "format": null
+          }
+        ]
+      },
+      "show": true,
+      "showAttachments": false
+    },
+    {
+      "name": "ginov_patrimoine2 - ginov_dev.ginov.canal",
+      "id": "ginov_patrimoine2_7993",
+      "layer": {
+        "url": "https://sig.seinegrandslacs.fr/arcgis/rest/services/Collector/ginov_patrimoine2/FeatureServer/14",
+        "fields": [
+          {
+            "name": "objectid",
+            "alias": "objectid",
+            "show": false,
+            "format": null
+          },
+          {
+            "name": "code_infra",
+            "alias": "code_infra",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "description",
+            "alias": "description",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "ouvrage",
+            "alias": "ouvrage",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "code_infra_ouvrage",
+            "alias": "code_infra_ouvrage",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "reservoir",
+            "alias": "reservoir",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "table_infrastructure",
+            "alias": "table_infrastructure",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "niveau",
+            "alias": "niveau",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "lien_photo",
+            "alias": "lien_photo",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "globalid",
+            "alias": "globalid",
+            "show": false,
+            "format": null
+          },
+          {
+            "name": "id_pat",
+            "alias": "id_pat",
+            "show": true,
+            "format": null
+          }
+        ]
+      },
+      "show": true,
+      "showAttachments": false
+    },
+    {
+      "name": "ginov_patrimoine2 - ginov_dev.ginov.barrage",
+      "id": "ginov_patrimoine2_982",
+      "layer": {
+        "url": "https://sig.seinegrandslacs.fr/arcgis/rest/services/Collector/ginov_patrimoine2/FeatureServer/15",
+        "fields": [
+          {
+            "name": "objectid",
+            "alias": "objectid",
+            "show": false,
+            "format": null
+          },
+          {
+            "name": "submersible",
+            "alias": "submersible",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "type",
+            "alias": "type",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "riviere",
+            "alias": "riviere",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "reservoir",
+            "alias": "reservoir",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "table_infrastructure",
+            "alias": "table_infrastructure",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "description",
+            "alias": "description",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "ouvrage",
+            "alias": "ouvrage",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "code_infra_ouvrage",
+            "alias": "code_infra_ouvrage",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "code_infra",
+            "alias": "code_infra",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "niveau",
+            "alias": "niveau",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "lien_photo",
+            "alias": "lien_photo",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "globalid",
+            "alias": "globalid",
+            "show": false,
+            "format": null
+          },
+          {
+            "name": "id_pat",
+            "alias": "id_pat",
+            "show": true,
+            "format": null
+          }
+        ]
+      },
+      "show": true,
+      "showAttachments": false
+    },
+    {
+      "name": "ginov_patrimoine2 - ginov_dev.ginov.parcelle_eptb",
+      "id": "ginov_patrimoine2_6037",
+      "layer": {
+        "url": "https://sig.seinegrandslacs.fr/arcgis/rest/services/Collector/ginov_patrimoine2/FeatureServer/16",
+        "fields": [
+          {
+            "name": "objectid",
+            "alias": "objectid",
+            "show": false,
+            "format": null
+          },
+          {
+            "name": "inspire",
+            "alias": "inspire",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "obs",
+            "alias": "obs",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "date_mise_",
+            "alias": "date_mise_",
+            "show": true,
+            "format": {
+              "dateFormat": "longMonthDayYear"
+            }
+          },
+          {
+            "name": "code_insee",
+            "alias": "code_insee",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "code_ins00",
+            "alias": "code_ins00",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "nom_commun",
+            "alias": "nom_commun",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "id_parcell",
+            "alias": "id_parcell",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "insee_comm",
+            "alias": "insee_comm",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "arrondisse",
+            "alias": "arrondisse",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "section",
+            "alias": "section",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "feuille",
+            "alias": "feuille",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "numero",
+            "alias": "numero",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "adresse",
+            "alias": "adresse",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "nature",
+            "alias": "nature",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "code_propr",
+            "alias": "code_propr",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "affectatio",
+            "alias": "affectatio",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "surf_impot",
+            "alias": "surf_impot",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "surf_imp00",
+            "alias": "surf_imp00",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "surf_imp01",
+            "alias": "surf_imp01",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "inventaire",
+            "alias": "inventaire",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "natura2000",
+            "alias": "natura2000",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "reserve",
+            "alias": "reserve",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "parc_natur",
+            "alias": "parc_natur",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "pourcentag",
+            "alias": "pourcentag",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "pourcent00",
+            "alias": "pourcent00",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "surf_rn_ca",
+            "alias": "surf_rn_ca",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "surf_rc_ca",
+            "alias": "surf_rc_ca",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "pos_reserv",
+            "alias": "pos_reserv",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "regime_for",
+            "alias": "regime_for",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "surf_non_i",
+            "alias": "surf_non_i",
+            "show": false,
+            "format": null
+          },
+          {
+            "name": "affectat00",
+            "alias": "affectat00",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "globalid",
+            "alias": "globalid",
+            "show": false,
+            "format": null
+          },
+          {
+            "name": "id_pat",
+            "alias": "id_pat",
+            "show": true,
+            "format": null
+          }
+        ]
+      },
+      "show": true,
+      "showAttachments": false
+    },
+    {
+      "name": "ginov_patrimoine2 - ginov_dev.ginov.gestion_emprise",
+      "id": "ginov_patrimoine2_8740",
+      "layer": {
+        "url": "https://sig.seinegrandslacs.fr/arcgis/rest/services/Collector/ginov_patrimoine2/FeatureServer/17",
+        "fields": [
+          {
+            "name": "objectid",
+            "alias": "objectid",
+            "show": false,
+            "format": null
+          },
+          {
+            "name": "id",
+            "alias": "id",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "reservoir",
+            "alias": "reservoir",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "id_digue",
+            "alias": "id_digue",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "zonage",
+            "alias": "zonage",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "milieu",
+            "alias": "milieu",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "obs",
+            "alias": "obs",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "surface",
+            "alias": "surface",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "typologie",
+            "alias": "typologie",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "entretien",
+            "alias": "entretien",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "difficulte",
+            "alias": "difficulte",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "securite",
+            "alias": "securite",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "classes",
+            "alias": "classes",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "risques",
+            "alias": "risques",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "temps",
+            "alias": "temps",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "materiel",
+            "alias": "materiel",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "engin",
+            "alias": "engin",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "globalid",
+            "alias": "globalid",
+            "show": false,
+            "format": null
+          },
+          {
+            "name": "id_pat",
+            "alias": "id_pat",
+            "show": true,
+            "format": null
+          }
+        ]
+      },
+      "show": true,
+      "showAttachments": false
+    },
+    {
+      "name": "ginov_patrimoine2 - ginov_dev.ginov.aot",
+      "id": "ginov_patrimoine2_3172",
+      "layer": {
+        "url": "https://sig.seinegrandslacs.fr/arcgis/rest/services/Collector/ginov_patrimoine2/FeatureServer/18",
+        "fields": [
+          {
+            "name": "objectid",
+            "alias": "objectid",
+            "show": false,
+            "format": null
+          },
+          {
+            "name": "id",
+            "alias": "id",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "id_lot",
+            "alias": "id_lot",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "reservoir",
+            "alias": "reservoir",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "section",
+            "alias": "section",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "numero",
+            "alias": "numero",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "entretien",
+            "alias": "entretien",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "securite",
+            "alias": "securite",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "cod_insee",
+            "alias": "cod_insee",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "nom_commun",
+            "alias": "nom_commun",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "methode",
+            "alias": "methode",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "superficie",
+            "alias": "superficie",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "prix_ha",
+            "alias": "prix_ha",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "aot_debut",
+            "alias": "aot_debut",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "aot_fin",
+            "alias": "aot_fin",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "globalid",
+            "alias": "globalid",
+            "show": false,
+            "format": null
+          },
+          {
+            "name": "id_pat",
+            "alias": "id_pat",
+            "show": true,
+            "format": null
+          }
+        ]
+      },
+      "show": true,
+      "showAttachments": false
+    },
+    {
+      "name": "ginov_patrimoine2 - ginov_dev.ginov.travail",
+      "id": "ginov_patrimoine2_8925",
+      "layer": {
+        "url": "https://sig.seinegrandslacs.fr/arcgis/rest/services/Collector/ginov_patrimoine2/FeatureServer/20",
+        "fields": [
+          {
+            "name": "objectid",
+            "alias": "OBJECTID",
+            "show": false,
+            "format": null
+          },
+          {
+            "name": "id_pat",
+            "alias": "id_pat",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "id_anomalie",
+            "alias": "id_anomalie",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "categorie",
+            "alias": "categorie activité",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "priorite",
+            "alias": "priorité",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "statut",
+            "alias": "statut",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "operateur",
+            "alias": "operateur",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "exploitant",
+            "alias": "exploitant",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "lieu",
+            "alias": "lieu",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "description",
+            "alias": "description",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "date_creation",
+            "alias": "date decreation",
+            "show": true,
+            "format": {
+              "dateFormat": "longMonthDayYear"
+            }
+          },
+          {
+            "name": "date_fin_prev",
+            "alias": "date fin previsionnelle",
+            "show": true,
+            "format": {
+              "dateFormat": "longMonthDayYear"
+            }
+          },
+          {
+            "name": "date_fin_eff",
+            "alias": "date fin effective",
+            "show": true,
+            "format": {
+              "dateFormat": "longMonthDayYear"
+            }
+          },
+          {
+            "name": "commentaire",
+            "alias": "commentaire terrain",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "duree",
+            "alias": "durée de l'activité",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "globalid",
+            "alias": "GlobalID",
+            "show": false,
+            "format": null
+          },
+          {
+            "name": "engins",
+            "alias": "Engins",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "activites",
+            "alias": "activités associées",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "groupe",
+            "alias": "groupe",
+            "show": true,
+            "format": null
+          }
+        ]
+      },
+      "show": false,
+      "showAttachments": false
+    },
+    {
+      "name": "ginov_patrimoine2 - ginov_dev.ginov.anomalie",
+      "id": "ginov_patrimoine2_9914",
+      "layer": {
+        "url": "https://sig.seinegrandslacs.fr/arcgis/rest/services/Collector/ginov_patrimoine2/FeatureServer/19",
+        "fields": [
+          {
+            "name": "objectid",
+            "alias": "OBJECTID",
+            "show": false,
+            "format": null
+          },
+          {
+            "name": "id_pat",
+            "alias": "id_pat",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "lac",
+            "alias": "lac-reservoir",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "operateur",
+            "alias": "opérateur",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "lieu",
+            "alias": "lieu",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "reference",
+            "alias": "réference",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "consequence",
+            "alias": "conséquence principale",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "description",
+            "alias": "description",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "organe",
+            "alias": "organe",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "id_anomalie",
+            "alias": "id_anomalie",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "globalid",
+            "alias": "GlobalID",
+            "show": false,
+            "format": null
+          },
+          {
+            "name": "date",
+            "alias": "date de création",
+            "show": true,
+            "format": {
+              "dateFormat": "longMonthDayYear"
+            }
+          },
+          {
+            "name": "statut",
+            "alias": "statut",
+            "show": true,
+            "format": null
+          }
+        ]
+      },
+      "show": false,
+      "showAttachments": false
+    },
+    {
+      "name": "ginov_entite2 - ginov_dev.ginov.travail",
+      "id": "ginov_entite2_7791",
+      "layer": {
+        "url": "https://sig.seinegrandslacs.fr/arcgis/rest/services/Collector/ginov_entite2/FeatureServer/4",
+        "fields": [
+          {
+            "name": "objectid",
+            "alias": "OBJECTID",
+            "show": false,
+            "format": null
+          },
+          {
+            "name": "id_pat",
+            "alias": "id_pat",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "id_anomalie",
+            "alias": "id_anomalie",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "categorie",
+            "alias": "categorie activité",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "priorite",
+            "alias": "priorité",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "statut",
+            "alias": "statut",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "operateur",
+            "alias": "operateur",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "exploitant",
+            "alias": "exploitant",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "lieu",
+            "alias": "lieu",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "description",
+            "alias": "description",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "date_creation",
+            "alias": "date decreation",
+            "show": true,
+            "format": {
+              "dateFormat": "longMonthDayYear"
+            }
+          },
+          {
+            "name": "date_fin_prev",
+            "alias": "date fin previsionnelle",
+            "show": true,
+            "format": {
+              "dateFormat": "longMonthDayYear"
+            }
+          },
+          {
+            "name": "date_fin_eff",
+            "alias": "date fin effective",
+            "show": true,
+            "format": {
+              "dateFormat": "longMonthDayYear"
+            }
+          },
+          {
+            "name": "commentaire",
+            "alias": "commentaire terrain",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "duree",
+            "alias": "durée de l'activité",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "globalid",
+            "alias": "globalid",
+            "show": false,
+            "format": null
+          },
+          {
+            "name": "engins",
+            "alias": "Engins",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "activites",
+            "alias": "activités associées",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "groupe",
+            "alias": "groupe",
+            "show": true,
+            "format": null
+          }
+        ]
+      },
+      "show": false,
+      "showAttachments": false
+    },
+    {
+      "name": "ginov_entite2 - ginov_dev.ginov.anomalie",
+      "id": "ginov_entite2_2324",
+      "layer": {
+        "url": "https://sig.seinegrandslacs.fr/arcgis/rest/services/Collector/ginov_entite2/FeatureServer/3",
+        "fields": [
+          {
+            "name": "objectid",
+            "alias": "OBJECTID",
+            "show": false,
+            "format": null
+          },
+          {
+            "name": "id_pat",
+            "alias": "id_pat",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "lac",
+            "alias": "lac-reservoir",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "operateur",
+            "alias": "opérateur",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "lieu",
+            "alias": "lieu",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "reference",
+            "alias": "réference",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "consequence",
+            "alias": "conséquence principale",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "description",
+            "alias": "description",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "organe",
+            "alias": "organe",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "id_anomalie",
+            "alias": "id_anomalie",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "globalid",
+            "alias": "globalid",
+            "show": false,
+            "format": null
+          },
+          {
+            "name": "date",
+            "alias": "date de création",
+            "show": true,
+            "format": {
+              "dateFormat": "longMonthDayYear"
+            }
+          },
+          {
+            "name": "statut",
+            "alias": "statut",
+            "show": true,
+            "format": null
+          }
+        ]
+      },
+      "show": false,
+      "showAttachments": false
+    }
+  ],
+  "table": {
+    "pageSizeOptions": [
+      25,
+      50,
+      100,
+      1000
+    ]
+  },
+  "hideExportButton": false,
+  "initiallyExpand": false,
+  "filterByMapExtent": true
+}

@@ -1,0 +1,29 @@
+@import 'css/jimu-override.css';
+@import 'css/jimu-theme.css';
+@import 'css/launchpad.css';
+@import 'icons/styles.css';
+.esriPopup .titlePane {
+  background-color: #3b8fc4;
+}
+
+/* OVERRIDE SCALEBAR UI */
+.scalebar_bottom-left {
+  background-color: rgba(0,0,0,0.5);
+  width: auto;
+  height: 26px;
+  padding-left: 5px;
+  padding-right: 40px;
+}
+
+.claro .esriScalebarLine {
+  border-color: white !important;
+}
+
+.claro .esriScalebarLabel {
+  color: white !important;
+}
+
+/* OVERRIDE HEADER BAR UI*/
+.searchGroup {
+  margin-left: 20px !important;
+}

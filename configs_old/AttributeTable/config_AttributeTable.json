@@ -1,0 +1,782 @@
+{
+  "layerInfos": [
+    {
+      "name": "Patrimoine_Anomalies_Travaux - anomalies",
+      "id": "Patrimoine_Anomalies_Travaux_8974",
+      "layer": {
+        "url": "https://sig.seinegrandslacs.fr/arcgis/rest/services/Collector/Patrimoine_Anomalies_Travaux/FeatureServer/0",
+        "fields": [
+          {
+            "name": "objectid",
+            "alias": "OBJECTID",
+            "show": false,
+            "format": null
+          },
+          {
+            "name": "lac_reservoir",
+            "alias": "lac_reservoir",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "lieu",
+            "alias": "lieu",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "consequence",
+            "alias": "consequence principale",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "description",
+            "alias": "description",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "id_pat",
+            "alias": "identfiant du patrimoine",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "type_patrimoine",
+            "alias": "type de patrimoine",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "date",
+            "alias": "date",
+            "show": true,
+            "format": {
+              "dateFormat": "longMonthDayYear"
+            }
+          },
+          {
+            "name": "fiche_ouverte",
+            "alias": "fiche_ouverte",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "id_anomalie",
+            "alias": "id_anomalie",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "globalid",
+            "alias": "globalid",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "id_object",
+            "alias": "id_object",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "globalid_1",
+            "alias": "globalid_1",
+            "show": false,
+            "format": null
+          }
+        ]
+      },
+      "show": true,
+      "showAttachments": false
+    },
+    {
+      "name": "Patrimoine_Anomalies_Travaux - ginov_rec.sde.anomalies_diverses_ponctuelles",
+      "id": "Patrimoine_Anomalies_Travaux_895",
+      "layer": {
+        "url": "https://sig.seinegrandslacs.fr/arcgis/rest/services/Collector/Patrimoine_Anomalies_Travaux/FeatureServer/1",
+        "fields": [
+          {
+            "name": "objectid",
+            "alias": "OBJECTID",
+            "show": false,
+            "format": null
+          },
+          {
+            "name": "id_anomalie",
+            "alias": "id_anomalie",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "globalid",
+            "alias": "globalid",
+            "show": false,
+            "format": null
+          }
+        ]
+      },
+      "show": false,
+      "showAttachments": false
+    },
+    {
+      "name": "Patrimoine_Anomalies_Travaux - travaux",
+      "id": "Patrimoine_Anomalies_Travaux_4462",
+      "layer": {
+        "url": "https://sig.seinegrandslacs.fr/arcgis/rest/services/Collector/Patrimoine_Anomalies_Travaux/FeatureServer/2",
+        "fields": [
+          {
+            "name": "objectid",
+            "alias": "OBJECTID",
+            "show": false,
+            "format": null
+          },
+          {
+            "name": "id_travail",
+            "alias": "id_travail",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "id_lacreservoir",
+            "alias": "id_lacreservoir",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "id_activite",
+            "alias": "id_categorie_act",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "id_priorite",
+            "alias": "id_priorite",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "id_status",
+            "alias": "id_status",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "id_travailleur",
+            "alias": "id_travailleur",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "id_planificateur",
+            "alias": "id_planificateur",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "id_createur",
+            "alias": "id_createur",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "id_anomalie",
+            "alias": "id_anomalie",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "lieu",
+            "alias": "lieu",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "reference",
+            "alias": "reference",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "consequence",
+            "alias": "consequence",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "description",
+            "alias": "description",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "date",
+            "alias": "date de creation",
+            "show": true,
+            "format": {
+              "dateFormat": "longMonthDayYear"
+            }
+          },
+          {
+            "name": "commentaire",
+            "alias": "commentaire",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "duree",
+            "alias": "duree",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "id_object",
+            "alias": "id_object",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "id_pat",
+            "alias": "id_pat",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "globalid",
+            "alias": "globalid",
+            "show": false,
+            "format": null
+          }
+        ]
+      },
+      "show": false,
+      "showAttachments": false
+    },
+    {
+      "name": "Patrimoine_Anomalies_Travaux - abrimesure",
+      "id": "Patrimoine_Anomalies_Travaux_315",
+      "layer": {
+        "url": "https://sig.seinegrandslacs.fr/arcgis/rest/services/Collector/Patrimoine_Anomalies_Travaux/FeatureServer/3",
+        "fields": [
+          {
+            "name": "objectid",
+            "alias": "objectid",
+            "show": false,
+            "format": null
+          },
+          {
+            "name": "abreviation",
+            "alias": "abreviation",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "technologie",
+            "alias": "technologie",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "riviere",
+            "alias": "riviere",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "reservoir",
+            "alias": "reservoir",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "table_infrastructure",
+            "alias": "table_infrastructure",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "description",
+            "alias": "description",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "ouvrage",
+            "alias": "ouvrage",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "code_infra_ouvrage",
+            "alias": "code_infra_ouvrage",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "code_infra",
+            "alias": "code_infra",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "globalid",
+            "alias": "globalid",
+            "show": false,
+            "format": null
+          },
+          {
+            "name": "id_pat",
+            "alias": "id_pat",
+            "show": true,
+            "format": null
+          }
+        ]
+      },
+      "show": false,
+      "showAttachments": false
+    },
+    {
+      "name": "Patrimoine_Anomalies_Travaux - ouvrage_hydraulique_lineaire",
+      "id": "Patrimoine_Anomalies_Travaux_4314",
+      "layer": {
+        "url": "https://sig.seinegrandslacs.fr/arcgis/rest/services/Collector/Patrimoine_Anomalies_Travaux/FeatureServer/4",
+        "fields": [
+          {
+            "name": "objectid",
+            "alias": "objectid",
+            "show": false,
+            "format": null
+          },
+          {
+            "name": "riviere",
+            "alias": "riviere",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "reservoir",
+            "alias": "reservoir",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "table_infrastructure",
+            "alias": "table_infrastructure",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "description",
+            "alias": "description",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "ouvrage",
+            "alias": "ouvrage",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "code_infra_ouvrage",
+            "alias": "code_infra_ouvrage",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "code_infra",
+            "alias": "code_infra",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "type",
+            "alias": "type",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "niveau",
+            "alias": "niveau",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "lien_photo",
+            "alias": "lien_photo",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "globalid",
+            "alias": "globalid",
+            "show": false,
+            "format": null
+          },
+          {
+            "name": "id_pat",
+            "alias": "id_pat",
+            "show": true,
+            "format": null
+          }
+        ]
+      },
+      "show": false,
+      "showAttachments": false
+    },
+    {
+      "name": "Patrimoine_Anomalies_Travaux - anomalies diverses linéaires",
+      "id": "Patrimoine_Anomalies_Travaux_2649",
+      "layer": {
+        "url": "https://sig.seinegrandslacs.fr/arcgis/rest/services/Collector/Patrimoine_Anomalies_Travaux/FeatureServer/5",
+        "fields": [
+          {
+            "name": "objectid",
+            "alias": "OBJECTID",
+            "show": false,
+            "format": null
+          },
+          {
+            "name": "id_anomalie",
+            "alias": "id_anomalie",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "globalid",
+            "alias": "globalid",
+            "show": false,
+            "format": null
+          }
+        ]
+      },
+      "show": false,
+      "showAttachments": false
+    },
+    {
+      "name": "Patrimoine_Anomalies_Travaux - travail bucheronnage",
+      "id": "Patrimoine_Anomalies_Travaux_5246",
+      "layer": {
+        "url": "https://sig.seinegrandslacs.fr/arcgis/rest/services/Collector/Patrimoine_Anomalies_Travaux/FeatureServer/6",
+        "fields": [
+          {
+            "name": "objectid",
+            "alias": "OBJECTID",
+            "show": false,
+            "format": null
+          },
+          {
+            "name": "id_anomalie",
+            "alias": "id_anomalie",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "globalid",
+            "alias": "globalid",
+            "show": false,
+            "format": null
+          }
+        ]
+      },
+      "show": false,
+      "showAttachments": false
+    },
+    {
+      "name": "Patrimoine_Anomalies_Travaux - parcelle_eptb",
+      "id": "Patrimoine_Anomalies_Travaux_5252",
+      "layer": {
+        "url": "https://sig.seinegrandslacs.fr/arcgis/rest/services/Collector/Patrimoine_Anomalies_Travaux/FeatureServer/7",
+        "fields": [
+          {
+            "name": "objectid",
+            "alias": "objectid",
+            "show": false,
+            "format": null
+          },
+          {
+            "name": "inspire",
+            "alias": "inspire",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "obs",
+            "alias": "obs",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "date_mise_",
+            "alias": "date_mise_",
+            "show": true,
+            "format": {
+              "dateFormat": "longMonthDayYear"
+            }
+          },
+          {
+            "name": "code_insee",
+            "alias": "code_insee",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "code_ins00",
+            "alias": "code_ins00",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "nom_commun",
+            "alias": "nom_commun",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "id_parcell",
+            "alias": "id_parcell",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "insee_comm",
+            "alias": "insee_comm",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "arrondisse",
+            "alias": "arrondisse",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "section",
+            "alias": "section",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "feuille",
+            "alias": "feuille",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "numero",
+            "alias": "numero",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "adresse",
+            "alias": "adresse",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "nature",
+            "alias": "nature",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "code_propr",
+            "alias": "code_propr",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "affectatio",
+            "alias": "affectatio",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "surf_impot",
+            "alias": "surf_impot",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "surf_imp00",
+            "alias": "surf_imp00",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "surf_imp01",
+            "alias": "surf_imp01",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "inventaire",
+            "alias": "inventaire",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "natura2000",
+            "alias": "natura2000",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "reserve",
+            "alias": "reserve",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "parc_natur",
+            "alias": "parc_natur",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "pourcentag",
+            "alias": "pourcentag",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "pourcent00",
+            "alias": "pourcent00",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "surf_rn_ca",
+            "alias": "surf_rn_ca",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "surf_rc_ca",
+            "alias": "surf_rc_ca",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "pos_reserv",
+            "alias": "pos_reserv",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "regime_for",
+            "alias": "regime_for",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "surf_non_i",
+            "alias": "surf_non_i",
+            "show": false,
+            "format": null
+          },
+          {
+            "name": "affectat00",
+            "alias": "affectat00",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "globalid",
+            "alias": "globalid",
+            "show": false,
+            "format": null
+          },
+          {
+            "name": "id_pat",
+            "alias": "id_pat",
+            "show": true,
+            "format": null
+          }
+        ]
+      },
+      "show": false,
+      "showAttachments": false
+    },
+    {
+      "name": "Patrimoine_Anomalies_Travaux - anomalies diverses surfaciques",
+      "id": "Patrimoine_Anomalies_Travaux_6398",
+      "layer": {
+        "url": "https://sig.seinegrandslacs.fr/arcgis/rest/services/Collector/Patrimoine_Anomalies_Travaux/FeatureServer/8",
+        "fields": [
+          {
+            "name": "objectid",
+            "alias": "OBJECTID",
+            "show": false,
+            "format": null
+          },
+          {
+            "name": "lac_reservoir",
+            "alias": "lac-reservoir",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "lieu",
+            "alias": "lieu",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "consequence",
+            "alias": "consequence principale",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "description",
+            "alias": "description",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "date",
+            "alias": "date",
+            "show": true,
+            "format": {
+              "dateFormat": "longMonthDayYear"
+            }
+          },
+          {
+            "name": "fiche_ouverte",
+            "alias": "fiche ouverte par",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "id_anomalie",
+            "alias": "id_anomalie",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "globalid",
+            "alias": "globalid",
+            "show": false,
+            "format": null
+          }
+        ]
+      },
+      "show": false,
+      "showAttachments": false
+    }
+  ],
+  "table": {
+    "pageSizeOptions": [
+      25,
+      50,
+      100,
+      1000
+    ]
+  },
+  "hideExportButton": false,
+  "initiallyExpand": false,
+  "filterByMapExtent": true
+}

@@ -1,0 +1,40 @@
+{
+  "showLegend": true,
+  "contextMenu": {
+    "ZoomTo": true,
+    "Transparency": true,
+    "EnableOrDisablePopup": true,
+    "MoveupOrMovedown": true,
+    "OpenAttributeTable": true,
+    "DescriptionOrShowItemDetailsOrDownload": true
+  },
+  "layerOptions": {
+    "Patrimoine_Anomalies_Travaux_8974": {
+      "display": true
+    },
+    "Patrimoine_Anomalies_Travaux_895": {
+      "display": true
+    },
+    "Patrimoine_Anomalies_Travaux_4462": {
+      "display": true
+    },
+    "Patrimoine_Anomalies_Travaux_315": {
+      "display": true
+    },
+    "Patrimoine_Anomalies_Travaux_4314": {
+      "display": true
+    },
+    "Patrimoine_Anomalies_Travaux_2649": {
+      "display": true
+    },
+    "Patrimoine_Anomalies_Travaux_5246": {
+      "display": true
+    },
+    "Patrimoine_Anomalies_Travaux_5252": {
+      "display": true
+    },
+    "Patrimoine_Anomalies_Travaux_6398": {
+      "display": true
+    }
+  }
+}

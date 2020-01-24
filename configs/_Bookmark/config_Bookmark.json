@@ -1,0 +1,181 @@
+{
+  "bookmarks2D": [
+    {
+      "displayName": "Périmètre de l'EPTB",
+      "name": "Périmètre de l'EPTB",
+      "extent": {
+        "type": "extent",
+        "xmin": 179848.55204085715,
+        "ymin": 6160263.891687547,
+        "xmax": 357182.45766238053,
+        "ymax": 6282563.13694377,
+        "spatialReference": {
+          "wkid": 102100
+        },
+        "cache": {
+          "_parts": [
+            {
+              "extent": {
+                "type": "extent",
+                "xmin": 179848.55204085715,
+                "ymin": 6160263.891687547,
+                "xmax": 357182.45766238053,
+                "ymax": 6282563.13694377,
+                "spatialReference": {
+                  "wkid": 102100
+                }
+              },
+              "frameIds": [
+                0
+              ]
+            }
+          ]
+        }
+      },
+      "thumbnail": "${appPath}/configs/Bookmark/thumbnail_5.png",
+      "isInWebmap": false
+    },
+    {
+      "displayName": "Ile de France",
+      "name": "Ile de France",
+      "extent": {
+        "type": "extent",
+        "xmin": 175568.07845688006,
+        "ymin": 6182889.252059953,
+        "xmax": 352901.98407840345,
+        "ymax": 6305188.497316176,
+        "spatialReference": {
+          "wkid": 102100
+        },
+        "cache": {
+          "_parts": [
+            {
+              "extent": {
+                "type": "extent",
+                "xmin": 175568.07845688006,
+                "ymin": 6182889.252059953,
+                "xmax": 352901.98407840345,
+                "ymax": 6305188.497316176,
+                "spatialReference": {
+                  "wkid": 102100
+                }
+              },
+              "frameIds": [
+                0
+              ]
+            }
+          ]
+        }
+      },
+      "thumbnail": "${appPath}/configs/Bookmark/thumbnail_6.png",
+      "isInWebmap": false
+    },
+    {
+      "displayName": "Lac-réservoirs Seine et Aube",
+      "name": "Lac-réservoirs Seine et Aube",
+      "extent": {
+        "type": "extent",
+        "xmin": 469544.88924161444,
+        "ymin": 6141231.071644556,
+        "xmax": 513878.3656469569,
+        "ymax": 6171805.882958585,
+        "spatialReference": {
+          "wkid": 102100
+        },
+        "cache": {
+          "_parts": [
+            {
+              "extent": {
+                "type": "extent",
+                "xmin": 469544.88924161444,
+                "ymin": 6141231.071644556,
+                "xmax": 513878.3656469569,
+                "ymax": 6171805.882958585,
+                "spatialReference": {
+                  "wkid": 102100
+                }
+              },
+              "frameIds": [
+                0
+              ]
+            }
+          ]
+        }
+      },
+      "thumbnail": "${appPath}/configs/Bookmark/thumbnail_7.png",
+      "isInWebmap": false
+    },
+    {
+      "displayName": "Lac-réservoir Marne",
+      "name": "Lac-réservoir Marne",
+      "extent": {
+        "type": "extent",
+        "xmin": 507381.2182427472,
+        "ymin": 6187131.507129787,
+        "xmax": 551714.6946480897,
+        "ymax": 6217706.318443816,
+        "spatialReference": {
+          "wkid": 102100
+        },
+        "cache": {
+          "_parts": [
+            {
+              "extent": {
+                "type": "extent",
+                "xmin": 507381.2182427472,
+                "ymin": 6187131.507129787,
+                "xmax": 551714.6946480897,
+                "ymax": 6217706.318443816,
+                "spatialReference": {
+                  "wkid": 102100
+                }
+              },
+              "frameIds": [
+                0
+              ]
+            }
+          ]
+        }
+      },
+      "thumbnail": "${appPath}/configs/Bookmark/thumbnail_8.png",
+      "isInWebmap": false
+    },
+    {
+      "displayName": "Lac-réservoir Yonne",
+      "name": "Lac-réservoir Yonne",
+      "extent": {
+        "type": "extent",
+        "xmin": 423109.394558372,
+        "ymin": 5957935.077816742,
+        "xmax": 445276.13276104326,
+        "ymax": 5973222.483473755,
+        "spatialReference": {
+          "wkid": 102100
+        },
+        "cache": {
+          "_parts": [
+            {
+              "extent": {
+                "type": "extent",
+                "xmin": 423109.394558372,
+                "ymin": 5957935.077816742,
+                "xmax": 445276.13276104326,
+                "ymax": 5973222.483473755,
+                "spatialReference": {
+                  "wkid": 102100
+                }
+              },
+              "frameIds": [
+                0
+              ]
+            }
+          ]
+        }
+      },
+      "thumbnail": "${appPath}/configs/Bookmark/thumbnail_9.png",
+      "isInWebmap": false
+    }
+  ],
+  "bookmarks3D": [],
+  "flyTime": 3000
+}

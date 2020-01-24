@@ -1,0 +1,74 @@
+{
+  "bookmarks2D": [
+    {
+      "displayName": "Lac-réservoir Seine",
+      "name": "Lac-réservoir Seine",
+      "extent": {
+        "type": "extent",
+        "xmin": 791902.8024283084,
+        "ymin": 6792780.075893321,
+        "xmax": 806402.8024283084,
+        "ymax": 6802780.075893321,
+        "spatialReference": {
+          "wkid": 102110,
+          "latestWkid": 2154
+        }
+      },
+      "thumbnail": "${appPath}/configs/Bookmark/thumbnail.png",
+      "isInWebmap": false
+    },
+    {
+      "displayName": "Lac-réservoir Aube",
+      "name": "Lac-réservoir Aube",
+      "extent": {
+        "type": "extent",
+        "xmin": 799817.6821907109,
+        "ymin": 6798297.576263739,
+        "xmax": 814317.6821907109,
+        "ymax": 6808297.576263739,
+        "spatialReference": {
+          "wkid": 102110,
+          "latestWkid": 2154
+        }
+      },
+      "thumbnail": "${appPath}/configs/Bookmark/thumbnail_1.png",
+      "isInWebmap": false
+    },
+    {
+      "displayName": "Lac-réservoir Marne",
+      "name": "Lac-réservoir Marne",
+      "extent": {
+        "type": "extent",
+        "xmin": 822917.6821907109,
+        "ymin": 6827222.576263739,
+        "xmax": 837417.6821907109,
+        "ymax": 6837222.576263739,
+        "spatialReference": {
+          "wkid": 102110,
+          "latestWkid": 2154
+        }
+      },
+      "thumbnail": "${appPath}/configs/Bookmark/thumbnail_2.png",
+      "isInWebmap": false
+    },
+    {
+      "displayName": "Lac-réservoir Yonne",
+      "name": "Lac-réservoir Yonne",
+      "extent": {
+        "type": "extent",
+        "xmin": 760357.6830373792,
+        "ymin": 6666955.068484974,
+        "xmax": 774857.6830373792,
+        "ymax": 6676955.068484974,
+        "spatialReference": {
+          "wkid": 102110,
+          "latestWkid": 2154
+        }
+      },
+      "thumbnail": "${appPath}/configs/Bookmark/thumbnail_3.png",
+      "isInWebmap": false
+    }
+  ],
+  "bookmarks3D": [],
+  "flyTime": 3000
+}

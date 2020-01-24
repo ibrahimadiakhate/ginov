@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1,user-scalable=no">
+    <title>Fiche de travail</title>
+
+    <link rel="stylesheet" href="https://js.arcgis.com/3.20/esri/css/esri.css">
+
+    <script src="https://js.arcgis.com/3.20/" data-dojo-config="async:true"></script>
+    <script>
+        require([
+            "dojo/parser",
+            "dojo/ready",
+            "dijit/layout/BorderContainer",
+            "dijit/layout/ContentPane",
+            "dojo/dom",
+            "esri/map",
+            "esri/urlUtils",
+            "esri/arcgis/utils",
+            "esri/SpatialReference",
+            "esri/geometry/Extent",
+            "esri/geometry/Point",
+            "esri/symbols/SimpleMarkerSymbol",
+            "esri/graphic",
+            "esri/layers/GraphicsLayer",
+            "esri/Color", "dojo/_base/array", "esri/dijit/Legend",
+            "esri/symbols/SimpleMarkerSymbol", "esri/symbols/SimpleLineSymbol",
+            "esri/symbols/PictureFillSymbol", "esri/symbols/CartographicLineSymbol",
+            "esri/graphic", "esri/layers/FeatureLayer",
+			  'esri/layers/GraphicsLayer',
+			  'esri/symbols/SimpleMarkerSymbol',
+			  'esri/Color',
+			  "esri/geometry/Polyline",
+			  "esri/symbols/SimpleLineSymbol",
+			  "esri/symbols/SimpleFillSymbol",
+			  "esri/geometry/Polygon",
+			  "esri/layers/ArcGISTiledMapServiceLayer",
+            "dojo/domReady!"
+        ], function (
+            parser,
+            ready,
+            BorderContainer,
+            ContentPane,
+            dom,
+            Map,
+            urlUtils,
+            arcgisUtils,
+            SpatialReference,
+            Extent,
+            Point, SimpleMarkerSymbol, Graphic, GraphicsLayer, Color, arrayUtils, Legend,
+            SimpleMarkerSymbol, SimpleLineSymbol,
+            PictureFillSymbol, CartographicLineSymbol,
+            Graphic, FeatureLayer, GraphicsLayer, SimpleMarkerSymbol, 
+	Color, Polyline, SimpleLineSymbol, SimpleFillSymbol, Polygon, ArcGISTiledMapServiceLayer
+        ) {
+
+                var carte;
+                ready(function () {
+
+                    map = new Map("map", {
+                        //basemap: "osm",
+                        //center: [-94.75290067627297, 39.034671990514816],
+						//extent: new Extent({xmin:481103.0132173813,ymin:6147610.424432335,xmax:481103.0132173813,ymax:6147610.424432335,spatialReference:{wkid:102100}}),
+                        zoom: 6
+                    });
+                    carte = map;
+                    setTimeout(function () { getUrlVars(); }, 500);
+                });
+
+                //recuperer les parametres de l'url
+                function getUrlVars() {
+                    var vars = {};
+                    var parts = decodeURI(window.location.href).replace(/[?&]+([^=&]+)=([^&]*)/gi, function (m, key, value) {
+                        vars[key] = value;
+                    });
+                    //recupeElem(vars);
+					return vars;
+                };
+
+				var promise1 = new Promise(function(resolve, reject) {
+					resolve(getUrlVars());
+				});
+
+				promise1.then(function(value) {
+				  console.log(value);
+				  var vars = value;
+				  recupeElem(vars);
+				  
+				});
+
+                //remplir les infos d'un travail
+                function recupeElem(vars) {
+
+					var basemap = vars["basemap"];
+					if(basemap == "osm"){
+						carte.basemap = "osm";
+					}else{
+						var baseMapLayer = new ArcGISTiledMapServiceLayer("https://"+basemap);
+						carte.addLayer(baseMapLayer);
+					}
+					
+                    var spatialR = new SpatialReference({ wkid: 102100 });
+                    var stExtent = new Extent();
+                    stExtent.xmin = parseFloat(vars["xmin"]); //481103.0132173813;
+                    stExtent.ymin = parseFloat(vars["ymin"]); //6147610.424432335;
+                    stExtent.xmax = parseFloat(vars["xmax"]); //481103.0132173813;
+                    stExtent.ymax = parseFloat(vars["ymax"]); //6147610.424432335;
+                    stExtent.spatialReference = spatialR;
+					//carte.setExtent(stExtent);
+                   
+					
+					var typegeom = vars["typegeom"];
+					var geom = vars["geom"];
+					var spatialRef = vars["spatialref"];
+					var glMain = new GraphicsLayer({id: "graphic"});
+					var sms = new SimpleMarkerSymbol().setSize(30).setStyle(SimpleMarkerSymbol.STYLE_CIRCLE).setColor(new Color([255, 0, 0, 255]));
+					var smsLine = new SimpleLineSymbol().setStyle(SimpleLineSymbol.STYLE_SOLID).setColor(new Color([255, 0, 0, 255]));
+					smsLine.width = "4px";
+					var smsPolygon = new SimpleFillSymbol().setStyle(SimpleFillSymbol.STYLE_SOLID).setColor(new Color([255, 0, 0, 255]));
+					smsPolygon.outline.width = "2px";
+					smsPolygon.outline.color = [255, 0, 0, 255];
+					
+					
+					if(typegeom == "multipoint"){
+						geom = geom.split(",");	
+						var pt = new Point(geom,  new SpatialReference(spatialRef));
+						var graphic = new Graphic(pt, sms);
+						glMain.add(graphic);
+					}
+					else if(typegeom == "point"){
+						geom = geom.split(",");	
+						var pt = new Point(geom,  new SpatialReference(spatialRef));
+						var graphic = new Graphic(pt, sms);
+						glMain.add(graphic);
+					}
+					else if(typegeom == "polyline"){
+						geom = geom.split(",");	
+						var geomet = [];
+						for(i=0;i<geom.length;i++){
+							if(i%2 == 0){
+								geomet.push([parseFloat(geom[i]), parseFloat(geom[i+1])]);
+							}
+						}
+						var polyline = new Polyline( new SpatialReference(spatialRef));
+						polyline.addPath(geomet);
+						var graphic2 = new Graphic(polyline, smsLine);
+						glMain.add(graphic2);
+					}
+					else if(typegeom == "polygon"){
+						geom = geom.split(",");	
+						var geomet = [];
+						for(i=0;i<geom.length;i++){
+							if(i%2 == 0){
+								geomet.push([parseFloat(geom[i]), parseFloat(geom[i+1])]);
+							}
+						}
+						var polygon = new Polygon( new SpatialReference(spatialRef));
+						polygon.addRing(geomet);
+						var graphic3 = new Graphic(polygon, smsPolygon);
+						glMain.add(graphic3);
+					}
+					carte.addLayer(glMain);
+					
+					var ext = carte.getLayer("graphic").graphics[0]._extent;
+					ext.spatialReference.wkid = 102110;
+					carte.setExtent(ext);
+					
+                    var feat = new FeatureLayer("https://sig.seinegrandslacs.fr/arcgis/rest/services/Ginov/"+ vars["path"]);
+					feat.opacity = 0.5;
+                    carte.addLayer(feat);
+                    carte.setZoom(vars["echelle"]);
+					console.log(carte);
+
+                    var today = new Date();
+                    var dd = today.getDate();
+                    var mm = today.getMonth() + 1; //January is 0!
+
+                    var yyyy = today.getFullYear();
+                    if (dd < 10) {
+                        dd = '0' + dd;
+                    }
+                    if (mm < 10) {
+                        mm = '0' + mm;
+                    }
+                    var today = dd + '/' + mm + '/' + yyyy;
+
+                    var strTable = '<table style="width:605px;margin-left: 50px;">' +
+                        '<tr><td colspan="2"><strong>Priorité : </strong>' + vars["priorite"] + '</td></tr>' +
+                        '<tr><td colspan="2"><strong>Date de fin prévisionnelle : </strong>' + vars["date_fin_prev"] + '</td></tr>' +
+                        '<tr><td colspan="2">Statut : ' + vars["statut"] + '</td></tr>' +
+                        '<tr><td>Lieu : ' + vars["lieu"] + '     </td> <td>    Date création travail : ' + vars["date_creation"] + '</td></tr>' +
+                        '<tr><td>Cat. activité : ' + vars["categorie"] + '   </td> <td>    Activité : ' + vars["activites"] + '</td></tr>' +
+                        '<tr><td colspan="2">Prescripteur : ' + vars["exploitant"] + '</td></tr>' +
+                        '<tr><td colspan="2" style="width: 22px">Description : ' + vars["description"] + '</td></tr>' +
+                        '<tr><td colspan="2">Opérateurs : ';
+
+                    var tabOperateur = vars["operateur"].split(",");
+                    for (i = 0; i < tabOperateur.length; i++) {
+                        strTable += "<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - " + tabOperateur[i];
+                    }
+
+                    var tabEngin = vars["engins"].split(";");
+                    if (tabEngin.length != 0 && tabEngin[0] != "") {
+                        strTable += '</td></tr>' +
+                            '<tr><td colspan="2">Engins : ';
+                        for (k = 0; k < tabEngin.length; k++) {
+							if(tabEngin[k] != ""){
+								strTable += "<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - " + tabEngin[k];
+							}
+                        }
+                    }
+
+                    strTable += '</td></tr>' +
+                        '</table>';
+
+                    var entete = '<div style="margin-left: 80px; margin-top: 10px;"><strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Fiche de travail GINOV – ' + vars["lac"] + ' - ' + today + ' </strong>' +
+                        '</div><br>' +
+                        '<div style="margin-left:170px;margin-bottom: 20px;">' + vars["activites"] + '</div>';
+
+                    document.getElementById("tableau").innerHTML = strTable;
+                    document.getElementById("entete").innerHTML = entete;
+
+                    if (vars["commentaire"] != "") {
+                        document.getElementById("commentaire").style.display = "";
+                        var com = "Commentaires opérateur : " + vars["commentaire"];
+                        document.getElementById("commentaire").innerHTML = com;
+                    }
+
+
+                    /*
+					setTimeout(function () {
+                        window.print();
+                        window.close();
+                    }, 2000);*/
+					document.getElementById("printD").onclick = function(){
+						document.getElementById("printD").style.display = "none";
+						window.print();
+						document.getElementById("printD").style.display = "block";
+					};
+				
+                };
+				
+				
+            });
+
+    </script>
+    <style>
+        html,
+        body {
+            height: 100%;
+            width: 100%;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: "Helvetica";
+        }
+
+        #header {
+            background-color: #E8E8E8;
+            height: 65px;
+            margin: 5px 5px;
+        }
+
+        #mainWindow {
+            position: absolute !important;
+            width: 70% !important;
+            height: 400px;
+            margin-left: 120px;
+        }
+
+        #title {
+            padding-top: 2px;
+            padding-left: 10px;
+            font-size: 18pt;
+            font-weight: 700;
+        }
+
+        #subtitle {
+            font-size: small;
+            padding-left: 40px;
+        }
+
+        #rightPane {
+            background-color: #E8E8E8;
+            margin: 5px;
+            width: 20%;
+        }
+
+        #map {
+            margin: 5px;
+            padding: 0;
+            width: 400px !important;
+            /*width: 120% !important;*/
+            height: 400px !important;
+            position: relative !important;
+        }
+
+        #map_zoom_slider {
+            display: none;
+        }
+
+        .esriAttributionList {
+            display: none;
+        }
+
+        #legende {
+            position: absolute;
+            top: 250px;
+            right: 10px;
+            width: 28%;
+        }
+
+        /*
+        #legendDiv {
+            position: absolute !important;
+            right: 10px;
+            font-size: 10px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+        }
+
+        #legend {
+            position: absolute !important;
+            right: 70px;
+        }*/
+        .esriLegendLayerLabel {
+            display: none;
+        }
+
+        .esriLegendService {
+            padding-bottom: 5px;
+        }
+
+        #fiche2 {
+            position: absolute !important;
+            top: 700px !important;
+        }
+
+        table,
+        tr,
+        td {
+            border: 1px solid black;
+        }
+    </style>
+</head>
+
+<body class="claro">
+    </br></br></br>
+    <div id="entete" style="border: 1px solid; width:600px;margin-left: 50px;">
+
+    </div>
+    </br></br>
+
+
+    <div id="tableau">
+
+    </div>
+    </br></br>
+
+
+    <div id="commentaire" style="border: 1px solid; width:600px;margin-left: 50px; display:none;">
+
+    </div>
+
+    </br></br>
+	<button  id="printD" style="margin-left: 600px;">Imprimer </button>
+
+    <div id="mainWindow" data-dojo-type="dijit/layout/BorderContainer" data-dojo-props="design:'headline'">
+        <div id="map" data-dojo-type="dijit/layout/ContentPane" data-dojo-props="region:'center'"></div>
+    </div>
+	
+    <div>
+        <div id="x" style="display:none;"></div>
+        <div id="y" style="display:none;"></div>
+        <div id="xmin" style="display:none;"></div>
+        <div id="ymin" style="display:none;"></div>
+        <div id="xmax" style="display:none;"></div>
+        <div id="ymax" style="display:none;"></div>
+        <div id="feature" style="display:none;"></div>
+    </div>
+
+	
+	
+
+</body>
+
+
+</html>
